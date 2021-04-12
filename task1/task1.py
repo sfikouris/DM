@@ -11,6 +11,8 @@ df['Time you went to be Yesterday'] = pd.to_datetime(df['Time you went to be Yes
 
 #print(df['Time you went to be Yesterday'].dt.time.to_string())
 
+
+
 #make the values of column 1 same
 df['What programme are you in?'] = df['What programme are you in?'].replace(
     to_replace = ["ai","AI","Ai","AI (uva)","AI Masters",
@@ -18,7 +20,7 @@ df['What programme are you in?'] = df['What programme are you in?'].replace(
     "MSc AI","Master Artificial Intelligence","Master AI at UvA","Artificial Intelligence","Msc Artificial Intelligence ",
     "artificial intelligence","Artificial Intelligence Masters","Artificial Intelligence MSc","MSc: Artificial Intelligence",
     "Master Artificial Intelligence: Cognitive Sciences ","Masters of Artificial Intelligence","Msc AI","MSc Artificial Intelligence",
-    "Msc Artificial Intelligence","MSc Artificial Intelligence @UvA","Artificial intelligence"],
+    "Msc Artificial Intelligence","MSc Artificial Intelligence @UvA","Artificial intelligence","M AI","MSc Ai"],
     value = "Artificial Intelligence")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
@@ -30,11 +32,12 @@ df['What programme are you in?'] = df['What programme are you in?'].replace(
     "Bioinformatics & Systems Biology","bioinformatics and system biology","Bioinformatics and systems biology",
     "Master bioinformatics and systems biology","Master Bioinformatics & Systems Biology",
     "MSc Bioinformatics & Systems Biology","MSc Bioinformatics and systems biology","MSC Bioinformatics and systems Biology",
-    "MSc in Bioinformatics and Systems Biology","Bioinformatics and systems biology "],
+    "MSc in Bioinformatics and Systems Biology","Bioinformatics and systems biology ","M Bioinformatics and Systems Biology"],
     value = "Bioinformatics and Systems Biology")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
-    to_replace = ["computational science","Computational science","Computational Science UvA/VU","Master in Computational Science"],
+    to_replace = ["computational science","Computational science","Computational Science UvA/VU",
+    "Master in Computational Science","Computational Sciences","Computational Sciences "],
     value = "Computational Science")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
@@ -58,16 +61,16 @@ df['What programme are you in?'] = df['What programme are you in?'].replace(
 df['What programme are you in?'] = df['What programme are you in?'].replace(
     to_replace = ["Econometrics & Operation Research master","Econometrics and Operation Research","Econometrics and Operations Research",
     "EOR","Master Econometrics and Operations Research: Data Science track","MSc Econometrics and Operation Research",
-    "Msc Econometrics and Operations Research","E&OR"],
+    "Msc Econometrics and Operations Research","E&OR","Econometrics and Operations Research "],
     value = "Econometrics & Operations Research")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
     to_replace = ["QRM","Duisenberg Honours Programme in Finance and Technology","Duisenberg Honours: QRM",
-    "MSc Finance - Duisenberg Honours Programme of Quantitative Risk Management","Quantitative Risk Management"],
+    "MSc Finance - Duisenberg Honours Programme of Quantitative Risk Management","Quantitative Risk Management","Quantitative Risk Management "],
     value = "Quantative Risk Management")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
-    to_replace = ["Finance & Technology","Finance and technology","Fintech","Honours master F&T",
+    to_replace = ["Finance & Technology","Finance and technology","Fintech","Honours master F&T","MSc Finance",
     "Duisenberg Honours Programme in Finance and Technology","Master Finance & Technology","Msc. Finance and Technology"],
     value = "Finance and Technology")
 
@@ -81,9 +84,13 @@ df['What programme are you in?'] = df['What programme are you in?'].replace(
     value = "Linguistics Text Mining")
 
 df['What programme are you in?'] = df['What programme are you in?'].replace(
-    to_replace = ["Master Artificial Intelligence: Cognitive Sciences","Master Artificial Intelligence: Cognitive Sciences",
-    "Master Artificial Intelligence: Cognitive Sciences"],
+    to_replace = ["Master Artificial Intelligence: Cognitive Sciences ","RM AI, RM Cognitive Neuropsychology","AI: cognitive science track"],
     value = "Cognitive Sciences")
+
+df['What programme are you in?'] = df['What programme are you in?'].replace(
+    to_replace = ["cs","CS","Msc Computer Science"],
+    value = "Computer Science")
+
 
 
 #print(df['What programme are you in?'].to_string())

@@ -1,314 +1,314 @@
 ,Timestamp,What programme are you in?,Have you taken a course on machine learning?,Have you taken a course on information retrieval?,Have you taken a course on statistics?,Have you taken a course on databases?,What is your gender?,Chocolate makes you.....,When is your birthday (date)?,Number of neighbors sitting around you?,Did you stand up?,What is your stress level (0-100)?,"You can get 100 euros if you win a local DM competition, or we don’t hold any competitions and I give everyone some money (not the same amount!). How much do you think you would deserve then? ",Give a random number,Time you went to be Yesterday,What makes a good day for you (1)?,What makes a good day for you (2)?
 0,3/16/2021 14:37:20,Master Tax Law - Tax and Technology,yes,0,mu,ja,male,neither,,2,no,85,50,8,,Having completed a set task.,Happy people
 1,3/24/2021 17:28:48,Artificial Intelligence,no,0,sigma,nee,male,I have no idea what you are talking about,,0,no,0,100,3,,Coffee,Sun
-2,3/25/2021 12:31:29,DMT,no,0,mu,nee,male,fat,1997-09-23,4,no,40,5,33,2021-04-12 00:00:00,Be Happy,Having a very productive day
-3,3/25/2021 15:56:30,CS,no,1,mu,ja,male,I have no idea what you are talking about,1999-07-30,,no,42,5,2147483648,,If you give me a 10,If you give my team a 10
-4,3/25/2021 17:41:04,Artificial Intelligence,yes,0,mu,ja,female,neither,1998-08-03,1,no,20,50,4,,nice weather,having good food
-5,3/26/2021 11:31:46,system security,no,1,sigma,ja,male,neither,1995-01-13,0,no,20,30,5,,weather,free day
-6,3/26/2021 13:59:32,Quantative Risk Management,yes,0,mu,nee,male,fat,1997-07-28,0,no,20,0,34612,2021-04-12 01:30:00,Classical music,Data mining :-P
-7,3/26/2021 14:30:47,Computational Science,no,0,sigma,nee,male,neither,1993-11-14,0,no,20,,7,,Making progress in a tough course,"Watching the game, smoking some bud"
-8,3/26/2021 15:31:08,Artificial Intelligence,no,0,mu,ja,male,neither,1997-08-02,0,no,99,1,6,2021-04-12 01:45:00,Drum,Bass
+2,3/25/2021 12:31:29,DMT,no,0,mu,nee,male,fat,1997-09-23 00:00:00,4,no,40,5,33,2021-04-12 00:00:00,Be Happy,Having a very productive day
+3,3/25/2021 15:56:30,Computer Science,no,1,mu,ja,male,I have no idea what you are talking about,1999-07-30 00:00:00,,no,42,5,2147483648,,If you give me a 10,If you give my team a 10
+4,3/25/2021 17:41:04,Artificial Intelligence,yes,0,mu,ja,female,neither,1998-08-03 00:00:00,1,no,20,50,4,,nice weather,having good food
+5,3/26/2021 11:31:46,system security,no,1,sigma,ja,male,neither,1995-01-13 00:00:00,0,no,20,30,5,,weather,free day
+6,3/26/2021 13:59:32,Quantative Risk Management,yes,0,mu,nee,male,fat,1997-07-28 00:00:00,0,no,20,0,34612,2021-04-12 01:30:00,Classical music,Data mining :-P
+7,3/26/2021 14:30:47,Computational Science,no,0,sigma,nee,male,neither,1993-11-14 00:00:00,0,no,20,,7,,Making progress in a tough course,"Watching the game, smoking some bud"
+8,3/26/2021 15:31:08,Artificial Intelligence,no,0,mu,ja,male,neither,1997-08-02 00:00:00,0,no,99,1,6,2021-04-12 01:45:00,Drum,Bass
 9,3/26/2021 22:29:30,Artificial Intelligence,no,0,mu,ja,male,neither,,1,no,50,2,4,,Meeting a friend,Being productive
 10,3/26/2021 23:46:34,Computational Science,no,0,mu,nee,male,fat,,2,no,90,30,7,,Good coffe,Get motivated
-11,3/27/2021 16:02:34,Artificial Intelligence,yes,0,mu,nee,male,fat,1998-04-15,3,no,60,5,7,2021-04-12 01:00:00,Start studying early,Finishing everything that I proposed for that day
-12,3/27/2021 19:31:57,Big Data,no,1,mu,nee,male,neither,1977-02-07,4,unknown,75,100,7,2021-04-12 12:00:00,feel of achievement ,"go out, talk to people "
-13,3/27/2021 20:59:51,Bioinformatics and Systems Biology,yes,0,mu,nee,female,neither,1997-11-07,0,no,50,,7,2021-04-12 02:00:00,relaxing and chill schedule,nice weather
-14,3/27/2021 21:19:34,Human Language Technology,yes,0,mu,nee,female,neither,1998-07-04,2,no,20,5,23,,sunny wheather outside,coronavirus restrictions lifted
-15,3/28/2021 10:27:38,Artificial Intelligence,yes,0,mu,ja,female,fat,1997-07-30,0,no,10,,7,2021-04-12 23:10:00,Socialize a bit,Tidy environment
+11,3/27/2021 16:02:34,Artificial Intelligence,yes,0,mu,nee,male,fat,1998-04-15 00:00:00,3,no,60,5,7,2021-04-12 01:00:00,Start studying early,Finishing everything that I proposed for that day
+12,3/27/2021 19:31:57,Big Data,no,1,mu,nee,male,neither,1977-02-07 00:00:00,4,unknown,75,100,7,2021-04-12 12:00:00,feel of achievement ,"go out, talk to people "
+13,3/27/2021 20:59:51,Bioinformatics and Systems Biology,yes,0,mu,nee,female,neither,1997-11-07 00:00:00,0,no,50,,7,2021-04-12 02:00:00,relaxing and chill schedule,nice weather
+14,3/27/2021 21:19:34,Human Language Technology,yes,0,mu,nee,female,neither,1998-07-04 00:00:00,2,no,20,5,23,,sunny wheather outside,coronavirus restrictions lifted
+15,3/28/2021 10:27:38,Artificial Intelligence,yes,0,mu,ja,female,fat,1997-07-30 00:00:00,0,no,10,,7,2021-04-12 23:10:00,Socialize a bit,Tidy environment
 16,3/28/2021 10:58:31,Computational Science,no,0,mu,nee,female,fat,,0,yes,0,50,8,2021-04-12 00:45:00,get up,food
-17,3/28/2021 11:22:44,Artificial Intelligence,no,0,mu,nee,female,neither,1966-03-09,0,no,70,5,7,,nice weather,surprising things happen
+17,3/28/2021 11:22:44,Artificial Intelligence,no,0,mu,nee,female,neither,1966-03-09 00:00:00,0,no,70,5,7,,nice weather,surprising things happen
 18,3/28/2021 12:40:57,Quantative Risk Management,yes,0,mu,ja,male,slim,,0,yes,77,2.5,7,,Food,Beer
-19,3/28/2021 20:21:27,Business Analytics,yes,1,mu,ja,male,slim,1998-06-01,0,no,10,10,14,2021-04-12 23:30:00,No stress,Doing sports
-20,3/28/2021 21:38:59,Artificial Intelligence,yes,unknown,mu,nee,female,neither,1995-04-08,0,no,40,12,4,2021-04-12 13:00:00,food,sleep
-21,3/28/2021 23:23:22,Computational Science,no,0,mu,ja,male,slim,1996-07-31,5,no,7,8,9.4678309602976E+016,,Sleeping to a good movie,Food
-22,3/29/2021 0:12:18,cs,no,0,mu,ja,male,fat,2020-01-09,10,yes,93,93,10,,happy,very happy
-23,3/29/2021 6:09:27,Computational Science,no,0,mu,nee,male,fat,1995-11-11,0,no,100,0,2,,Good sleep,Good food
-24,3/29/2021 6:39:25,CS,yes,0,mu,ja,female,fat,1997-10-29,0,no,50,30,14,2021-04-12 01:23:00,Everything is under control.,Delicious food.
-25,3/29/2021 8:32:53,Artificial Intelligence,yes,0,mu,ja,male,slim,1998-01-12,1,no,0,0,3,,Sun,Good weather
-26,3/29/2021 9:41:50,Linguistics Text Mining,yes,0,mu,nee,female,neither,1998-02-13,4,unknown,70,50,13,,A productive study/work day,Inner peace
-27,3/29/2021 10:09:42,Bioinformatics and Systems Biology,no,0,mu,nee,female,fat,1997-04-11,0,no,12,2,6.7,2021-04-12 22:54:00,Nice wheather,Seeing my boyfriend
-28,3/29/2021 10:29:23,Business Analytics,yes,1,mu,nee,male,neither,1999-07-13,0,no,30,1,6,2021-04-12 23:30:00,Sunny weather,Coffee
+19,3/28/2021 20:21:27,Business Analytics,yes,1,mu,ja,male,slim,1998-06-01 00:00:00,0,no,10,10,14,2021-04-12 23:30:00,No stress,Doing sports
+20,3/28/2021 21:38:59,Artificial Intelligence,yes,unknown,mu,nee,female,neither,1995-04-08 00:00:00,0,no,40,12,4,2021-04-12 13:00:00,food,sleep
+21,3/28/2021 23:23:22,Computational Science,no,0,mu,ja,male,slim,1996-07-31 00:00:00,5,no,7,8,9.4678309602976E+016,,Sleeping to a good movie,Food
+22,3/29/2021 0:12:18,Computer Science,no,0,mu,ja,male,fat,2020-01-09 00:00:00,10,yes,93,93,10,,happy,very happy
+23,3/29/2021 6:09:27,Computational Science,no,0,mu,nee,male,fat,1995-11-11 00:00:00,0,no,100,0,2,,Good sleep,Good food
+24,3/29/2021 6:39:25,Computer Science,yes,0,mu,ja,female,fat,1997-10-29 00:00:00,0,no,50,30,14,2021-04-12 01:23:00,Everything is under control.,Delicious food.
+25,3/29/2021 8:32:53,Artificial Intelligence,yes,0,mu,ja,male,slim,1998-01-12 00:00:00,1,no,0,0,3,,Sun,Good weather
+26,3/29/2021 9:41:50,Linguistics Text Mining,yes,0,mu,nee,female,neither,1998-02-13 00:00:00,4,unknown,70,50,13,,A productive study/work day,Inner peace
+27,3/29/2021 10:09:42,Bioinformatics and Systems Biology,no,0,mu,nee,female,fat,1997-04-11 00:00:00,0,no,12,2,6.7,2021-04-12 22:54:00,Nice wheather,Seeing my boyfriend
+28,3/29/2021 10:29:23,Business Analytics,yes,1,mu,nee,male,neither,1999-07-13 00:00:00,0,no,30,1,6,2021-04-12 23:30:00,Sunny weather,Coffee
 29,3/29/2021 10:39:02,Bioinformatics and Systems Biology,yes,0,mu,nee,male,slim,,1,no,30,100,1998,,Enjoy the sun.,Share some laughts.
-30,3/29/2021 10:49:15,Computational Science,yes,1,mu,ja,male,fat,1996-12-28,0,no,90,20,0,,sun,no rain
-31,3/29/2021 11:00:34,Python,yes,0,mu,ja,male,fat,1997-10-30,0,no,70,50,8,2021-04-12 00:30:00,laughing,working out
-32,3/29/2021 11:16:17,Econometrics & Operations Research,no,1,mu,nee,male,fat,1998-01-26,0,no,0,20,10,2021-04-12 00:00:00,sunny weather,wake up happy
-33,3/29/2021 11:19:21,Computational Science,no,0,mu,ja,male,neither,1997-11-11,,no,5,70,11,2021-04-12 12:30:00,Sunshine,Friends
+30,3/29/2021 10:49:15,Computational Science,yes,1,mu,ja,male,fat,1996-12-28 00:00:00,0,no,90,20,0,,sun,no rain
+31,3/29/2021 11:00:34,Python,yes,0,mu,ja,male,fat,1997-10-30 00:00:00,0,no,70,50,8,2021-04-12 00:30:00,laughing,working out
+32,3/29/2021 11:16:17,Econometrics & Operations Research,no,1,mu,nee,male,fat,1998-01-26 00:00:00,0,no,0,20,10,2021-04-12 00:00:00,sunny weather,wake up happy
+33,3/29/2021 11:19:21,Computational Science,no,0,mu,ja,male,neither,1997-11-11 00:00:00,,no,5,70,11,2021-04-12 12:30:00,Sunshine,Friends
 34,3/29/2021 11:22:24,Computational Science,yes,0,mu,ja,female,slim,,1,no,10,5,3,2021-04-12 23:30:00,Meeting with friends,Coffee to go in corona times
 35,3/29/2021 11:30:19,Computational Science,yes,0,sigma,ja,male,fat,,3,no,67,1,-518,2021-04-12 22:45:00,Doing physical activities (games) with friends in a park on sunny day with some alcoholic beverages.,Winning a competitive korfbal match after putting in a good performance.
-36,3/29/2021 11:39:25,Human Language Technology,yes,0,mu,nee,female,I have no idea what you are talking about,1995-08-14,1,no,50,10,7,,Take a walk in nature,Good chat with friends and drinks
-37,3/29/2021 12:45:18,Human Language Technology,yes,0,mu,nee,female,neither,1999-03-27,0,no,40,,7,2021-04-12 23:30:00,Sunshine,Good night's sleep
-38,3/29/2021 13:05:02,Econometrics & Operations Research,yes,0,mu,nee,male,fat,1999-03-06,0,no,30,8,6,2021-04-12 01:00:00,weather,girlfriend
-39,3/29/2021 13:06:57,Econometrics & Data Science,yes,0,mu,nee,male,neither,1998-08-04,0,no,0,80,20,2021-04-12 02:00:00,Being productive,Meeting friends
-40,3/29/2021 13:16:49,Artificial Intelligence,yes,0,mu,nee,male,fat,1994-06-17,0,no,20,18,53,2021-04-12 23:30:00,sunshine,sport
+36,3/29/2021 11:39:25,Human Language Technology,yes,0,mu,nee,female,I have no idea what you are talking about,1995-08-14 00:00:00,1,no,50,10,7,,Take a walk in nature,Good chat with friends and drinks
+37,3/29/2021 12:45:18,Human Language Technology,yes,0,mu,nee,female,neither,1999-03-27 00:00:00,0,no,40,,7,2021-04-12 23:30:00,Sunshine,Good night's sleep
+38,3/29/2021 13:05:02,Econometrics & Operations Research,yes,0,mu,nee,male,fat,1999-03-06 00:00:00,0,no,30,8,6,2021-04-12 01:00:00,weather,girlfriend
+39,3/29/2021 13:06:57,Econometrics & Data Science,yes,0,mu,nee,male,neither,1998-08-04 00:00:00,0,no,0,80,20,2021-04-12 02:00:00,Being productive,Meeting friends
+40,3/29/2021 13:16:49,Artificial Intelligence,yes,0,mu,nee,male,fat,1994-06-17 00:00:00,0,no,20,18,53,2021-04-12 23:30:00,sunshine,sport
 41,3/29/2021 13:27:23,Econometrics & Operations Research,no,0,mu,ja,male,fat,,2,no,50,10,41,,good weather,having a good breakfast
-42,3/29/2021 13:43:38,Econometrics & Operations Research,yes,0,mu,ja,male,neither,1996-06-18,0,no,12,0.5,47,2021-04-12 11:45:00,Good food,Sex
+42,3/29/2021 13:43:38,Econometrics & Operations Research,yes,0,mu,ja,male,neither,1996-06-18 00:00:00,0,no,12,0.5,47,2021-04-12 11:45:00,Good food,Sex
 43,3/29/2021 13:47:45,Quantative Risk Management,no,0,mu,nee,female,fat,,0,no,60,,8,,Getting all the work done that I've planned,Seeing my friends and family
-44,3/29/2021 13:50:14,Artificial Intelligence,yes,1,mu,ja,male,fat,1998-04-04,2,no,55,,4,2021-04-12 01:00:00,music,music
-45,3/29/2021 13:53:03,Business Analytics,yes,1,mu,nee,male,I have no idea what you are talking about,1993-06-24,0,no,78,0,9.83745893982735E+043,,Saturday,Monday
-46,3/29/2021 13:53:38,Artificial Intelligence,no,0,mu,nee,male,I have no idea what you are talking about,1997-01-01,0,no,1,100,1,,food,more food
-47,3/29/2021 13:56:26,CS,yes,0,mu,nee,male,fat,1995-11-16,0,no,25,1,6,2021-04-12 01:00:00,Family,Rice/Pasta for dinner
+44,3/29/2021 13:50:14,Artificial Intelligence,yes,1,mu,ja,male,fat,1998-04-04 00:00:00,2,no,55,,4,2021-04-12 01:00:00,music,music
+45,3/29/2021 13:53:03,Business Analytics,yes,1,mu,nee,male,I have no idea what you are talking about,1993-06-24 00:00:00,0,no,78,0,9.83745893982735E+043,,Saturday,Monday
+46,3/29/2021 13:53:38,Artificial Intelligence,no,0,mu,nee,male,I have no idea what you are talking about,1997-01-01 00:00:00,0,no,1,100,1,,food,more food
+47,3/29/2021 13:56:26,Computer Science,yes,0,mu,nee,male,fat,1995-11-16 00:00:00,0,no,25,1,6,2021-04-12 01:00:00,Family,Rice/Pasta for dinner
 48,3/29/2021 14:01:59,Linguistics Text Mining ,yes,1,sigma,nee,female,I have no idea what you are talking about,,0,no,90,50,9,2021-04-12 22:00:00,sun ,exercise
 49,3/29/2021 14:07:33,Econometrics,no,0,mu,nee,male,fat,,2,no,70,20,5,,Going out,not working
 50,3/29/2021 14:16:20,Econometrics & Data Science,yes,unknown,mu,ja,male,fat,,0,no,12,,7,2021-04-12 23:30:00,No stress,Holidays
-51,3/29/2021 14:30:16,Econometrics,yes,0,mu,nee,male,neither,1998-06-10,0,unknown,31,,4,2021-04-12 22:27:00,Sun,Sporting
-52,3/29/2021 14:32:57,Artificial Intelligence,no,0,mu,ja,female,neither,1999-11-20,0,no,35,10,10,2021-04-12 02:30:00,Free time,Social activity
-53,3/29/2021 14:35:19,Artificial Intelligence,yes,1,mu,ja,female,fat,1998-11-15,0,no,80,,9,2021-04-12 00:20:00,Getting everything done that needed to be done,Chilling in the sun
+51,3/29/2021 14:30:16,Econometrics,yes,0,mu,nee,male,neither,1998-06-10 00:00:00,0,unknown,31,,4,2021-04-12 22:27:00,Sun,Sporting
+52,3/29/2021 14:32:57,Artificial Intelligence,no,0,mu,ja,female,neither,1999-11-20 00:00:00,0,no,35,10,10,2021-04-12 02:30:00,Free time,Social activity
+53,3/29/2021 14:35:19,Artificial Intelligence,yes,1,mu,ja,female,fat,1998-11-15 00:00:00,0,no,80,,9,2021-04-12 00:20:00,Getting everything done that needed to be done,Chilling in the sun
 54,3/29/2021 14:40:38,Artificial Intelligence,yes,0,mu,nee,female,neither,,2,no,50,1,5,2021-04-12 02:00:00,Seeing friends and family that I love,"Calmth, positivity, learning/reading"
-55,3/29/2021 14:44:22,Business Analytics,yes,1,mu,ja,male,fat,1998-01-01,2,no,10,20,3,2021-04-12 22:30:00,nice weather,walk on the beach
-56,3/29/2021 14:49:24,Finance and Technology,yes,0,mu,nee,male,fat,1997-01-28,0,no,0,20,2,,Soccer,Sun
-57,3/29/2021 15:00:11,Bioinformatics and Systems Biology,yes,0,mu,ja,female,fat,1999-03-02,1,no,75,10,37,2021-04-12 23:30:00,When I have seen/spoken to my loved ones,When I feel like my day has been productive but not too stresfull 
-58,3/29/2021 15:03:24,Artificial Intelligence,no,0,mu,nee,male,fat,1992-09-20,0,no,100,1,938,2021-04-12 05:25:00,Rest,Nothing
-59,3/29/2021 15:04:18,Quantitative Risk Management ,no,0,unknown,nee,male,fat,1996-05-16,1,no,50,20,69,2021-04-12 23:30:00,Efficiency,Accomplishment
-60,3/29/2021 15:05:00,Quantitative Risk Management ,no,0,unknown,nee,male,fat,1996-05-16,1,no,50,20,69,2021-04-12 23:30:00,Efficiency,Accomplishment
+55,3/29/2021 14:44:22,Business Analytics,yes,1,mu,ja,male,fat,1998-01-01 00:00:00,2,no,10,20,3,2021-04-12 22:30:00,nice weather,walk on the beach
+56,3/29/2021 14:49:24,Finance and Technology,yes,0,mu,nee,male,fat,1997-01-28 00:00:00,0,no,0,20,2,,Soccer,Sun
+57,3/29/2021 15:00:11,Bioinformatics and Systems Biology,yes,0,mu,ja,female,fat,1999-03-02 00:00:00,1,no,75,10,37,2021-04-12 23:30:00,When I have seen/spoken to my loved ones,When I feel like my day has been productive but not too stresfull 
+58,3/29/2021 15:03:24,Artificial Intelligence,no,0,mu,nee,male,fat,1992-09-20 00:00:00,0,no,100,1,938,2021-04-12 05:25:00,Rest,Nothing
+59,3/29/2021 15:04:18,Quantative Risk Management,no,0,unknown,nee,male,fat,1996-05-16 00:00:00,1,no,50,20,69,2021-04-12 23:30:00,Efficiency,Accomplishment
+60,3/29/2021 15:05:00,Quantative Risk Management,no,0,unknown,nee,male,fat,1996-05-16 00:00:00,1,no,50,20,69,2021-04-12 23:30:00,Efficiency,Accomplishment
 61,3/29/2021 15:05:38,Econometrics & Operations Research,yes,1,mu,ja,male,neither,,0,yes,60,30,7,2021-04-12 22:30:00,8 hours of sleep,Friendly people
-62,3/29/2021 15:09:54,Quantative Risk Management,no,0,mu,nee,male,fat,1996-05-16,1,no,50,20,7,2021-04-12 23:30:00,Efficiency,Accomplishment
-63,3/29/2021 15:35:37,CS,yes,0,mu,unknown,female,neither,,1,no,20,15,6,2021-04-12 03:00:00,swimming,beer
-64,3/29/2021 15:41:09,M AI,yes,1,mu,ja,female,I have no idea what you are talking about,,0,no,40,0,1,2021-04-12 03:30:00,a good night's sleep,a relaxed morning
-65,3/29/2021 16:23:33,OR,no,0,mu,nee,male,neither,1996-09-09,0,no,77,5,4,2021-04-12 02:00:00,No work/free time,Beautiful weather
+62,3/29/2021 15:09:54,Quantative Risk Management,no,0,mu,nee,male,fat,1996-05-16 00:00:00,1,no,50,20,7,2021-04-12 23:30:00,Efficiency,Accomplishment
+63,3/29/2021 15:35:37,Computer Science,yes,0,mu,unknown,female,neither,,1,no,20,15,6,2021-04-12 03:00:00,swimming,beer
+64,3/29/2021 15:41:09,Artificial Intelligence,yes,1,mu,ja,female,I have no idea what you are talking about,,0,no,40,0,1,2021-04-12 03:30:00,a good night's sleep,a relaxed morning
+65,3/29/2021 16:23:33,OR,no,0,mu,nee,male,neither,1996-09-09 00:00:00,0,no,77,5,4,2021-04-12 02:00:00,No work/free time,Beautiful weather
 66,3/29/2021 16:35:14,Bioinformatics and Systems Biology,yes,0,mu,nee,male,neither,,0,no,15,99,11,,Fun activities,Good food
-67,3/29/2021 16:35:49,Finance and Technology,yes,0,mu,nee,male,fat,1994-08-15,0,no,60,20,8,,Warm weather,enough food
-68,3/29/2021 16:35:57,Business Analytics,yes,1,mu,ja,male,fat,1995-10-27,0,no,60,100,7,2021-04-12 23:00:00,Hanging out with friends,watching sports
-69,3/29/2021 16:46:51,Econometrics & Operations Research,yes,0,mu,nee,male,neither,1998-02-07,0,no,38,,43,2021-04-12 01:30:00,Good breakfast,Outdoor activity
-70,3/29/2021 16:49:13,Climate Econometrics,yes,0,mu,nee,female,neither,1993-01-02,0,no,30,10,4444,2021-04-12 23:00:00,Walking in the sun,Eating good food
-71,3/29/2021 16:51:39,CS,no,0,mu,unknown,male,slim,1999-10-05,1,no,5,1,5,,sleep,people
-72,3/29/2021 17:35:57,Quantative Risk Management,no,0,mu,nee,male,neither,1996-09-22,0,no,50,1,314,,No Stress,Be able to relax
-73,3/29/2021 17:47:11,Business Analytics,yes,0,mu,nee,male,fat,1994-12-13,0,no,35,10,7,,If I completed all my tasks which I set for the day.,When I have spoken with/seen at least some friends or relatives that day. 
-74,3/29/2021 17:56:51,Artificial Intelligence,yes,0,mu,nee,male,neither,1998-05-01,0,no,0,,5,2230-01-01 00:00:00,Sun,Food
-75,3/29/2021 17:58:00,Medical Informatics,yes,1,mu,ja,male,fat,1996-01-01,0,no,10,5,711,,sport,sun
-76,3/29/2021 18:02:48,Artificial Intelligence,yes,1,mu,ja,male,neither,1999-09-15,0,no,10,1,6,2021-04-12 01:00:00,No obligations,A good night of sleep
-77,3/29/2021 18:21:02,Business Analytics,yes,0,mu,ja,female,fat,1998-01-07,1,no,40,50,75,2021-04-12 22:30:00,A long walk outside,Getting things done
+67,3/29/2021 16:35:49,Finance and Technology,yes,0,mu,nee,male,fat,1994-08-15 00:00:00,0,no,60,20,8,,Warm weather,enough food
+68,3/29/2021 16:35:57,Business Analytics,yes,1,mu,ja,male,fat,1995-10-27 00:00:00,0,no,60,100,7,2021-04-12 23:00:00,Hanging out with friends,watching sports
+69,3/29/2021 16:46:51,Econometrics & Operations Research,yes,0,mu,nee,male,neither,1998-02-07 00:00:00,0,no,38,,43,2021-04-12 01:30:00,Good breakfast,Outdoor activity
+70,3/29/2021 16:49:13,Climate Econometrics,yes,0,mu,nee,female,neither,1993-01-02 00:00:00,0,no,30,10,4444,2021-04-12 23:00:00,Walking in the sun,Eating good food
+71,3/29/2021 16:51:39,Computer Science,no,0,mu,unknown,male,slim,1999-10-05 00:00:00,1,no,5,1,5,,sleep,people
+72,3/29/2021 17:35:57,Quantative Risk Management,no,0,mu,nee,male,neither,1996-09-22 00:00:00,0,no,50,1,314,,No Stress,Be able to relax
+73,3/29/2021 17:47:11,Business Analytics,yes,0,mu,nee,male,fat,1994-12-13 00:00:00,0,no,35,10,7,,If I completed all my tasks which I set for the day.,When I have spoken with/seen at least some friends or relatives that day. 
+74,3/29/2021 17:56:51,Artificial Intelligence,yes,0,mu,nee,male,neither,1998-05-01 00:00:00,0,no,0,,5,2230-01-01 00:00:00,Sun,Food
+75,3/29/2021 17:58:00,Medical Informatics,yes,1,mu,ja,male,fat,1996-01-01 00:00:00,0,no,10,5,711,,sport,sun
+76,3/29/2021 18:02:48,Artificial Intelligence,yes,1,mu,ja,male,neither,1999-09-15 00:00:00,0,no,10,1,6,2021-04-12 01:00:00,No obligations,A good night of sleep
+77,3/29/2021 18:21:02,Business Analytics,yes,0,mu,ja,female,fat,1998-01-07 00:00:00,1,no,40,50,75,2021-04-12 22:30:00,A long walk outside,Getting things done
 78,3/29/2021 19:01:05,Mathematics,yes,0,mu,ja,female,neither,,0,no,60,10,7,,Sun,Social contacts
-79,3/29/2021 19:35:58,Business Analytics,yes,unknown,mu,ja,male,fat,1994-10-22,0,no,60,1,69,2021-04-12 23:30:00,Sun,Tennis
-80,3/29/2021 19:56:04,Business Analytics,yes,0,mu,ja,male,neither,1999-02-23,,unknown,99,100,2,,Payday,The day that I paid my rent and don't have a red valued bank account.
-81,3/29/2021 19:57:32,Human Language Technology,yes,0,sigma,ja,male,fat,1995-06-10,0,no,40,70,6,2021-04-12 00:30:00,Nice weather and a run,Playing music with friends
-82,3/29/2021 20:04:52,Business Analytics,yes,0,mu,unknown,female,fat,1997-01-20,2,no,80,50,8,2021-04-12 23:40:00,weather ,Being with friends or family
-83,3/29/2021 20:09:38,Finance and Technology,yes,unknown,unknown,nee,male,fat,1996-03-12,0,no,20,,6,2021-04-12 23:10:00,sports,good food
-84,3/29/2021 20:33:29,Artificial Intelligence,yes,0,mu,ja,male,fat,1996-02-22,0,unknown,10,20,1,2021-04-12 23:00:00,Sun,Productivity
-85,3/29/2021 20:53:49,Business Analytics,yes,0,mu,nee,male,slim,1998-10-09,0,no,5,0,9,2021-04-12 00:00:00,Sport,Progress towards a goal
-86,3/29/2021 21:09:39,Computational Sciences,no,0,mu,nee,male,neither,1996-03-21,0,no,31,0,3,2021-04-12 23:59:00,Sun,Fun
-87,3/29/2021 21:16:04,Econometrics and data science ,yes,unknown,mu,nee,female,fat,1998-02-06,2,no,41,37,8679,2021-04-12 23:30:00,Sunshine ,Good food
-88,3/29/2021 21:23:01,Computational Science,no,1,mu,ja,female,fat,1998-03-26,0,no,85,5,13,2021-04-12 00:36:00,a nice meal,the sun
-89,3/29/2021 21:30:30,Business Analytics,yes,0,mu,nee,female,neither,1996-09-17,2,no,60,60,7,,Sun,Happy people/friends
-90,3/29/2021 21:53:06,Artificial Intelligence,no,0,mu,nee,female,neither,1992-12-16,0,no,85,5,9,2021-04-12 03:00:00,Day off,Good company
+79,3/29/2021 19:35:58,Business Analytics,yes,unknown,mu,ja,male,fat,1994-10-22 00:00:00,0,no,60,1,69,2021-04-12 23:30:00,Sun,Tennis
+80,3/29/2021 19:56:04,Business Analytics,yes,0,mu,ja,male,neither,1999-02-23 00:00:00,,unknown,99,100,2,,Payday,The day that I paid my rent and don't have a red valued bank account.
+81,3/29/2021 19:57:32,Human Language Technology,yes,0,sigma,ja,male,fat,1995-06-10 00:00:00,0,no,40,70,6,2021-04-12 00:30:00,Nice weather and a run,Playing music with friends
+82,3/29/2021 20:04:52,Business Analytics,yes,0,mu,unknown,female,fat,1997-01-20 00:00:00,2,no,80,50,8,2021-04-12 23:40:00,weather ,Being with friends or family
+83,3/29/2021 20:09:38,Finance and Technology,yes,unknown,unknown,nee,male,fat,1996-03-12 00:00:00,0,no,20,,6,2021-04-12 23:10:00,sports,good food
+84,3/29/2021 20:33:29,Artificial Intelligence,yes,0,mu,ja,male,fat,1996-02-22 00:00:00,0,unknown,10,20,1,2021-04-12 23:00:00,Sun,Productivity
+85,3/29/2021 20:53:49,Business Analytics,yes,0,mu,nee,male,slim,1998-10-09 00:00:00,0,no,5,0,9,2021-04-12 00:00:00,Sport,Progress towards a goal
+86,3/29/2021 21:09:39,Computational Science,no,0,mu,nee,male,neither,1996-03-21 00:00:00,0,no,31,0,3,2021-04-12 23:59:00,Sun,Fun
+87,3/29/2021 21:16:04,Econometrics & Data Science,yes,unknown,mu,nee,female,fat,1998-02-06 00:00:00,2,no,41,37,8679,2021-04-12 23:30:00,Sunshine ,Good food
+88,3/29/2021 21:23:01,Computational Science,no,1,mu,ja,female,fat,1998-03-26 00:00:00,0,no,85,5,13,2021-04-12 00:36:00,a nice meal,the sun
+89,3/29/2021 21:30:30,Business Analytics,yes,0,mu,nee,female,neither,1996-09-17 00:00:00,2,no,60,60,7,,Sun,Happy people/friends
+90,3/29/2021 21:53:06,Artificial Intelligence,no,0,mu,nee,female,neither,1992-12-16 00:00:00,0,no,85,5,9,2021-04-12 03:00:00,Day off,Good company
 91,3/29/2021 21:57:42,Computational Science,no,0,mu,nee,female,neither,,0,no,70,50,7,,sunny,enough sleep
-92,3/29/2021 22:11:39,Artificial Intelligence,no,0,mu,ja,male,fat,1996-01-17,3,no,70,100,0,,get a good grade,a sunny day
-93,3/29/2021 22:17:34,Computational Science,no,0,mu,nee,male,neither,1994-11-12,0,unknown,45,10,96465121,2021-04-12 22:15:00,Talking and being around friends and loved ones,When $GME goes up 69%      HODL ON
-94,3/29/2021 22:39:12,Artificial Intelligence,yes,1,mu,ja,male,I have no idea what you are talking about,1996-01-27,0,no,45,100,5,,productivity,good food
-95,3/29/2021 22:50:20,Artificial Intelligence,no,0,mu,nee,male,neither,1997-09-17,0,no,30,0,1,2021-04-12 23:30:00,Good sleep,Meet friends
-96,3/29/2021 22:58:34,Artificial Intelligence,no,unknown,mu,nee,female,fat,1998-04-04,0,no,65,1,10,,No stressing about deadlines,Take a nice walk
-97,3/29/2021 22:58:38,Artificial Intelligence,no,0,mu,nee,male,fat,1996-01-15,1,no,25,50,8,,happy,productive
-98,3/29/2021 23:02:41,Artificial Intelligence,yes,1,mu,ja,male,neither,1997-03-12,0,unknown,35,70,3,,good rest,social
-99,3/29/2021 23:03:17,Business Analytics,yes,0,mu,ja,female,fat,1998-10-13,0,no,66,,7,2021-04-12 00:30:00,Nice weather,Being with my friends
-100,3/29/2021 23:24:53,Artificial Intelligence,no,1,mu,ja,male,fat,1993-01-01,0,no,30,70,8,2021-04-12 01:30:00,Low stresslevels,Hanging out with friends
-101,3/29/2021 23:27:11,Quantative Risk Management,no,0,mu,nee,male,fat,1997-08-10,1,no,0,0,3417,2021-04-12 02:00:00,Good food,Good mood
-102,3/29/2021 23:32:18,Finance and Technology,yes,0,mu,nee,male,slim,1996-01-17,0,no,50,25,5,2021-04-12 03:00:00,Ice cream,No deadlines for the subsequent days
+92,3/29/2021 22:11:39,Artificial Intelligence,no,0,mu,ja,male,fat,1996-01-17 00:00:00,3,no,70,100,0,,get a good grade,a sunny day
+93,3/29/2021 22:17:34,Computational Science,no,0,mu,nee,male,neither,1994-11-12 00:00:00,0,unknown,45,10,96465121,2021-04-12 22:15:00,Talking and being around friends and loved ones,When $GME goes up 69%      HODL ON
+94,3/29/2021 22:39:12,Artificial Intelligence,yes,1,mu,ja,male,I have no idea what you are talking about,1996-01-27 00:00:00,0,no,45,100,5,,productivity,good food
+95,3/29/2021 22:50:20,Artificial Intelligence,no,0,mu,nee,male,neither,1997-09-17 00:00:00,0,no,30,0,1,2021-04-12 23:30:00,Good sleep,Meet friends
+96,3/29/2021 22:58:34,Artificial Intelligence,no,unknown,mu,nee,female,fat,1998-04-04 00:00:00,0,no,65,1,10,,No stressing about deadlines,Take a nice walk
+97,3/29/2021 22:58:38,Artificial Intelligence,no,0,mu,nee,male,fat,1996-01-15 00:00:00,1,no,25,50,8,,happy,productive
+98,3/29/2021 23:02:41,Artificial Intelligence,yes,1,mu,ja,male,neither,1997-03-12 00:00:00,0,unknown,35,70,3,,good rest,social
+99,3/29/2021 23:03:17,Business Analytics,yes,0,mu,ja,female,fat,1998-10-13 00:00:00,0,no,66,,7,2021-04-12 00:30:00,Nice weather,Being with my friends
+100,3/29/2021 23:24:53,Artificial Intelligence,no,1,mu,ja,male,fat,1993-01-01 00:00:00,0,no,30,70,8,2021-04-12 01:30:00,Low stresslevels,Hanging out with friends
+101,3/29/2021 23:27:11,Quantative Risk Management,no,0,mu,nee,male,fat,1997-08-10 00:00:00,1,no,0,0,3417,2021-04-12 02:00:00,Good food,Good mood
+102,3/29/2021 23:32:18,Finance and Technology,yes,0,mu,nee,male,slim,1996-01-17 00:00:00,0,no,50,25,5,2021-04-12 03:00:00,Ice cream,No deadlines for the subsequent days
 103,3/29/2021 23:41:02,Business Analytics,yes,0,mu,nee,male,neither,,0,no,60,1,7,2021-04-12 00:15:00,Enough sleep,Good food
-104,3/29/2021 23:53:22,Econometrics,no,0,mu,nee,male,I have no idea what you are talking about,1997-07-29,0,no,21,0.22,5,2021-04-12 22:55:00,"wake up early, be productive and relax with friends in evening",Learning something new
-105,3/30/2021 2:59:37,CS,no,0,sigma,ja,male,neither,1999-02-05,5,no,75,0,7,,no stress,good weather
-106,3/30/2021 3:36:10,Bioinformatics and Systems Biology,yes,0,mu,ja,male,I have no idea what you are talking about,1998-07-07,1,no,65,0,45,,1,2
+104,3/29/2021 23:53:22,Econometrics,no,0,mu,nee,male,I have no idea what you are talking about,1997-07-29 00:00:00,0,no,21,0.22,5,2021-04-12 22:55:00,"wake up early, be productive and relax with friends in evening",Learning something new
+105,3/30/2021 2:59:37,Computer Science,no,0,sigma,ja,male,neither,1999-02-05 00:00:00,5,no,75,0,7,,no stress,good weather
+106,3/30/2021 3:36:10,Bioinformatics and Systems Biology,yes,0,mu,ja,male,I have no idea what you are talking about,1998-07-07 00:00:00,1,no,65,0,45,,1,2
 107,3/30/2021 6:33:02,Quantative Risk Management,no,0,mu,ja,male,unknown,,0,no,20,0,9,,no exams or deadlines,plenty of sleep
 108,3/30/2021 8:20:19,Bioinformatics and Systems Biology,yes,0,mu,nee,male,neither,,0,no,80,,4,,sunshine,music
-109,3/30/2021 8:44:31,CS,yes,1,mu,ja,male,neither,,1,no,17,65,17,2021-04-12 22:45:00,odd jobs,sports
-110,3/30/2021 9:16:58,Research Master Human Movement Sciences (FGB),no,0,mu,nee,female,neither,1993-08-07,1,no,10,0,8,,sun,exercise
+109,3/30/2021 8:44:31,Computer Science,yes,1,mu,ja,male,neither,,1,no,17,65,17,2021-04-12 22:45:00,odd jobs,sports
+110,3/30/2021 9:16:58,Research Master Human Movement Sciences (FGB),no,0,mu,nee,female,neither,1993-08-07 00:00:00,1,no,10,0,8,,sun,exercise
 111,3/30/2021 9:20:47,Computational Science,no,0,mu,ja,male,fat,,0,yes,50,60,7,2021-04-12 01:00:00,no lecture,beautiful scenery
-112,3/30/2021 9:22:43,Mathematics,no,0,mu,nee,female,fat,1995-11-27,0,no,67,2,7,2021-04-12 22:45:00,tea,icecream
-113,3/30/2021 9:30:43,Business Analytics,yes,1,mu,ja,unknown,slim,1997-01-02,0,no,50,1,69,2021-04-12 00:00:00,sun,no deadlines
-114,3/30/2021 9:30:59,Artificial Intelligence,yes,0,mu,nee,female,I have no idea what you are talking about,1998-01-23,1,no,55,0,114,2021-04-12 23:00:00,Playing sports,Good food
-115,3/30/2021 9:40:31,CS,no,1,mu,ja,male,fat,,0,no,60,65,8,2021-04-12 23:50:00,Free time,Being outside
-116,3/30/2021 9:44:01,Finance and Technology,yes,0,mu,nee,female,fat,1999-03-26,0,no,60,,2,2021-04-12 22:00:00,Sun,Success
-117,3/30/2021 9:48:32,Artificial Intelligence,yes,1,sigma,ja,male,neither,1996-01-12,1,no,50,63,87,,30,Good weather
-118,3/30/2021 9:49:36,Information Studies: Data Science,yes,0,sigma,nee,male,neither,1990-10-26,0,no,75,7,2,2021-04-12 23:45:00,sun,cycling
-119,3/30/2021 10:00:00,Medical Informatics,yes,0,mu,nee,female,fat,1997-01-06,0,no,75,20,8,2021-04-12 22:30:00,The sun shines,Meeting with friends
-120,3/30/2021 10:07:28,Econometrics ,no,0,mu,nee,female,neither,1997-02-01,1,no,60,1,7,2021-04-12 23:30:00,Good weather,Good sleep the prior day
-121,3/30/2021 10:09:56,Artificial Intelligence,yes,1,mu,nee,male,fat,1999-01-26,0,no,20,1,42,2021-04-12 22:19:00,good night sleep,nice food
-122,3/30/2021 10:13:11,Artificial Intelligence,yes,1,mu,nee,male,unknown,1995-05-07,0,no,50,0.2,8,2021-04-12 22:30:00,Sun,25 degrees celsius
-123,3/30/2021 10:31:21,CS,no,0,mu,ja,female,neither,1996-01-14,0,no,77,70,3,,coffee,fulfill the plan
-124,3/30/2021 10:32:04,Msc Computer Science,yes,1,mu,ja,male,fat,1998-08-28,0,yes,30,,3452326632,2021-04-12 00:00:00,Sleeping well,Having a walk with my dog
-125,3/30/2021 10:36:55,Finance and Technology,yes,0,sigma,nee,male,neither,1998-12-28,0,yes,10,5,21,2021-04-12 23:54:00,Sun shining,Chatting with friends
-126,3/30/2021 10:37:05,CS,yes,1,mu,ja,male,fat,1998-08-28,0,yes,30,10,2,2021-04-12 00:00:00,Sleeping well,Having a walk with my dog
-127,3/30/2021 10:39:11,Quantative Risk Management,yes,1,mu,nee,male,fat,1995-03-05,1,no,15,10,14,2021-04-12 23:30:00,Sun,Beer
-128,3/30/2021 10:45:18,Bioinformatics and Systems Biology,yes,0,unknown,nee,female,slim,1994-05-08,4,no,20,20,8,2021-04-12 23:00:00,if the sun is shinning,Something adventurous took place
-129,3/30/2021 10:49:39,Business Analytics ,yes,1,mu,ja,male,fat,1995-01-03,0,no,40,5,2,2021-04-12 23:15:00,Good stock returns,Getting high grades back
-130,3/30/2021 10:49:50,Business Analytics,yes,1,mu,ja,male,fat,1998-12-17,0,no,10,3,4,2021-04-12 22:30:00,Zoom meeting,Teams meeting
-131,3/30/2021 10:53:15,Business Analytics,yes,unknown,mu,ja,male,neither,1997-08-27,0,unknown,60,,3,2021-04-12 21:00:00,Good weather,Exercise
-132,3/30/2021 10:53:49,CLS,no,0,mu,ja,female,fat,1997-04-19,1,no,40,100,3,,drinking cola zero,sunny weather
-133,3/30/2021 10:55:13,Artificial Intelligence,no,0,mu,nee,male,neither,1996-01-15,0,no,70,5,5,2021-04-12 00:15:00,Sun outside and no wind,Playing basketball
-134,3/30/2021 10:55:42,Artificial Intelligence,no,0,mu,nee,female,neither,1996-09-29,0,no,50,20,2,,The sun,Friends
-135,3/30/2021 10:55:44,CS,no,0,mu,nee,male,fat,,0,no,,100,9,,pizza,sleeping in
-136,3/30/2021 10:58:12,Artificial Intelligence,yes,0,mu,nee,female,neither,1995-11-12,0,no,30,12,11,2021-04-12 21:45:00,Sun,Good sleep
-137,3/30/2021 10:58:32,Econometrics ,yes,0,mu,ja,female,I have no idea what you are talking about,1996-05-06,1,no,70,20,7,2021-04-12 22:45:00,When the sun is shining ,Good night sleep 
+112,3/30/2021 9:22:43,Mathematics,no,0,mu,nee,female,fat,1995-11-27 00:00:00,0,no,67,2,7,2021-04-12 22:45:00,tea,icecream
+113,3/30/2021 9:30:43,Business Analytics,yes,1,mu,ja,unknown,slim,1997-01-02 00:00:00,0,no,50,1,69,2021-04-12 00:00:00,sun,no deadlines
+114,3/30/2021 9:30:59,Artificial Intelligence,yes,0,mu,nee,female,I have no idea what you are talking about,1998-01-23 00:00:00,1,no,55,0,114,2021-04-12 23:00:00,Playing sports,Good food
+115,3/30/2021 9:40:31,Computer Science,no,1,mu,ja,male,fat,,0,no,60,65,8,2021-04-12 23:50:00,Free time,Being outside
+116,3/30/2021 9:44:01,Finance and Technology,yes,0,mu,nee,female,fat,1999-03-26 00:00:00,0,no,60,,2,2021-04-12 22:00:00,Sun,Success
+117,3/30/2021 9:48:32,Artificial Intelligence,yes,1,sigma,ja,male,neither,1996-01-12 00:00:00,1,no,50,63,87,,30,Good weather
+118,3/30/2021 9:49:36,Information Studies: Data Science,yes,0,sigma,nee,male,neither,1990-10-26 00:00:00,0,no,75,7,2,2021-04-12 23:45:00,sun,cycling
+119,3/30/2021 10:00:00,Medical Informatics,yes,0,mu,nee,female,fat,1997-01-06 00:00:00,0,no,75,20,8,2021-04-12 22:30:00,The sun shines,Meeting with friends
+120,3/30/2021 10:07:28,Econometrics ,no,0,mu,nee,female,neither,1997-02-01 00:00:00,1,no,60,1,7,2021-04-12 23:30:00,Good weather,Good sleep the prior day
+121,3/30/2021 10:09:56,Artificial Intelligence,yes,1,mu,nee,male,fat,1999-01-26 00:00:00,0,no,20,1,42,2021-04-12 22:19:00,good night sleep,nice food
+122,3/30/2021 10:13:11,Artificial Intelligence,yes,1,mu,nee,male,unknown,1995-05-07 00:00:00,0,no,50,0.2,8,2021-04-12 22:30:00,Sun,25 degrees celsius
+123,3/30/2021 10:31:21,Computer Science,no,0,mu,ja,female,neither,1996-01-14 00:00:00,0,no,77,70,3,,coffee,fulfill the plan
+124,3/30/2021 10:32:04,Computer Science,yes,1,mu,ja,male,fat,1998-08-28 00:00:00,0,yes,30,,3452326632,2021-04-12 00:00:00,Sleeping well,Having a walk with my dog
+125,3/30/2021 10:36:55,Finance and Technology,yes,0,sigma,nee,male,neither,1998-12-28 00:00:00,0,yes,10,5,21,2021-04-12 23:54:00,Sun shining,Chatting with friends
+126,3/30/2021 10:37:05,Computer Science,yes,1,mu,ja,male,fat,1998-08-28 00:00:00,0,yes,30,10,2,2021-04-12 00:00:00,Sleeping well,Having a walk with my dog
+127,3/30/2021 10:39:11,Quantative Risk Management,yes,1,mu,nee,male,fat,1995-03-05 00:00:00,1,no,15,10,14,2021-04-12 23:30:00,Sun,Beer
+128,3/30/2021 10:45:18,Bioinformatics and Systems Biology,yes,0,unknown,nee,female,slim,1994-05-08 00:00:00,4,no,20,20,8,2021-04-12 23:00:00,if the sun is shinning,Something adventurous took place
+129,3/30/2021 10:49:39,Business Analytics ,yes,1,mu,ja,male,fat,1995-01-03 00:00:00,0,no,40,5,2,2021-04-12 23:15:00,Good stock returns,Getting high grades back
+130,3/30/2021 10:49:50,Business Analytics,yes,1,mu,ja,male,fat,1998-12-17 00:00:00,0,no,10,3,4,2021-04-12 22:30:00,Zoom meeting,Teams meeting
+131,3/30/2021 10:53:15,Business Analytics,yes,unknown,mu,ja,male,neither,1997-08-27 00:00:00,0,unknown,60,,3,2021-04-12 21:00:00,Good weather,Exercise
+132,3/30/2021 10:53:49,CLS,no,0,mu,ja,female,fat,1997-04-19 00:00:00,1,no,40,100,3,,drinking cola zero,sunny weather
+133,3/30/2021 10:55:13,Artificial Intelligence,no,0,mu,nee,male,neither,1996-01-15 00:00:00,0,no,70,5,5,2021-04-12 00:15:00,Sun outside and no wind,Playing basketball
+134,3/30/2021 10:55:42,Artificial Intelligence,no,0,mu,nee,female,neither,1996-09-29 00:00:00,0,no,50,20,2,,The sun,Friends
+135,3/30/2021 10:55:44,Computer Science,no,0,mu,nee,male,fat,,0,no,,100,9,,pizza,sleeping in
+136,3/30/2021 10:58:12,Artificial Intelligence,yes,0,mu,nee,female,neither,1995-11-12 00:00:00,0,no,30,12,11,2021-04-12 21:45:00,Sun,Good sleep
+137,3/30/2021 10:58:32,Econometrics ,yes,0,mu,ja,female,I have no idea what you are talking about,1996-05-06 00:00:00,1,no,70,20,7,2021-04-12 22:45:00,When the sun is shining ,Good night sleep 
 138,3/30/2021 11:03:33,Computer Science,yes,1,mu,ja,male,unknown,,3,no,32,99.99,4.554164846,2021-04-12 23:39:00,A nice suprise,A feeling of contentness
 139,3/30/2021 11:08:00,Artificial Intelligence,yes,0,mu,ja,female,neither,,1,no,40,70,3,2021-04-12 23:30:00,when it's sunny,when I can enjoy nature
-140,3/30/2021 11:09:42,Business Administration,no,0,mu,nee,male,fat,1998-08-21,3,no,10,10,8,2021-04-12 22:00:00,Tasteful food,Good weather
+140,3/30/2021 11:09:42,Business Administration,no,0,mu,nee,male,fat,1998-08-21 00:00:00,3,no,10,10,8,2021-04-12 22:00:00,Tasteful food,Good weather
 141,3/30/2021 11:10:49,Artificial Intelligence,yes,0,mu,nee,male,fat,,1,no,80,10,8,,Sun,Beauty
 142,3/30/2021 11:11:47,Artificial Intelligence,no,0,mu,ja,female,unknown,,1,no,20,10,5,2021-04-12 23:00:00,Sun,Smile
 143,3/30/2021 11:28:20,"RM AI, RM Cognitive Neuropsychology",no,0,mu,nee,female,neither,,1,no,0,70,5,,fun,sun
-144,3/30/2021 11:30:10,Human Language Technology,yes,1,mu,nee,female,neither,1997-11-11,0,no,30,25,7,,sunshine,love
-145,3/30/2021 11:30:34,Business Analytics,yes,1,mu,ja,male,fat,1999-07-25,0,no,80,10,7,2021-04-12 23:00:00,Doing well on study,Feyenoord winning a game
-146,3/30/2021 11:31:11,Bioinformatics and Systems Biology,yes,0,sigma,nee,female,slim,1997-08-03,1,no,0,,8,,Sun,My dog
-147,3/30/2021 11:36:30,Computational Sciences ,no,0,mu,unknown,male,neither,1999-06-24,0,no,20,1,7,2021-04-12 23:30:00,Friends,Sport
-148,3/30/2021 11:40:04,MSc Stochastics and Financial Mathematics,yes,0,mu,nee,female,fat,1996-12-26,2,yes,70,0,6,,sun,free time
-149,3/30/2021 11:41:42,Artificial Intelligence,yes,1,mu,nee,male,slim,1999-07-25,4,no,10,60,2,2021-04-12 00:30:00,good night sleep,things to do
-150,3/30/2021 11:49:20,Computational Science,no,1,mu,nee,male,fat,1997-09-27,0,no,70,80,7,2021-04-12 02:00:00,Good weather,Good news
-151,3/30/2021 11:52:45,Artificial Intelligence,no,1,mu,ja,male,fat,1995-05-08,0,no,30,5,968,,productivity,food
-152,3/30/2021 11:54:04,Artificial Intelligence,no,1,sigma,nee,female,fat,1997-11-17,0,no,50,5,8,,When I see my friends,Delicious food
-153,3/30/2021 11:54:41,Artificial Intelligence,yes,0,mu,ja,female,neither,1993-11-30,3,no,10,20,8,2021-04-12 01:15:00,coffee,sunny weather
+144,3/30/2021 11:30:10,Human Language Technology,yes,1,mu,nee,female,neither,1997-11-11 00:00:00,0,no,30,25,7,,sunshine,love
+145,3/30/2021 11:30:34,Business Analytics,yes,1,mu,ja,male,fat,1999-07-25 00:00:00,0,no,80,10,7,2021-04-12 23:00:00,Doing well on study,Feyenoord winning a game
+146,3/30/2021 11:31:11,Bioinformatics and Systems Biology,yes,0,sigma,nee,female,slim,1997-08-03 00:00:00,1,no,0,,8,,Sun,My dog
+147,3/30/2021 11:36:30,Computational Science,no,0,mu,unknown,male,neither,1999-06-24 00:00:00,0,no,20,1,7,2021-04-12 23:30:00,Friends,Sport
+148,3/30/2021 11:40:04,MSc Stochastics and Financial Mathematics,yes,0,mu,nee,female,fat,1996-12-26 00:00:00,2,yes,70,0,6,,sun,free time
+149,3/30/2021 11:41:42,Artificial Intelligence,yes,1,mu,nee,male,slim,1999-07-25 00:00:00,4,no,10,60,2,2021-04-12 00:30:00,good night sleep,things to do
+150,3/30/2021 11:49:20,Computational Science,no,1,mu,nee,male,fat,1997-09-27 00:00:00,0,no,70,80,7,2021-04-12 02:00:00,Good weather,Good news
+151,3/30/2021 11:52:45,Artificial Intelligence,no,1,mu,ja,male,fat,1995-05-08 00:00:00,0,no,30,5,968,,productivity,food
+152,3/30/2021 11:54:04,Artificial Intelligence,no,1,sigma,nee,female,fat,1997-11-17 00:00:00,0,no,50,5,8,,When I see my friends,Delicious food
+153,3/30/2021 11:54:41,Artificial Intelligence,yes,0,mu,ja,female,neither,1993-11-30 00:00:00,3,no,10,20,8,2021-04-12 01:15:00,coffee,sunny weather
 154,3/30/2021 11:57:06,Econometrics ,no,unknown,mu,ja,male,unknown,,2,unknown,80,,35,,Progress ,Happiness 
-155,3/30/2021 11:58:45,Econometrics & Data Science,no,0,mu,ja,male,unknown,1993-06-07,0,no,25,,92,,Friends,Fulfillment
-156,3/30/2021 12:05:21,Artificial Intelligence,no,1,unknown,ja,male,neither,1998-03-02,0,no,80,50,69,2021-04-12 23:10:00,Finishing a lot of work,Playing video games with friends
-157,3/30/2021 12:15:56,Artificial Intelligence,no,1,mu,nee,male,I have no idea what you are talking about,1996-12-11,0,no,20,0,46,,sun,soccer
+155,3/30/2021 11:58:45,Econometrics & Data Science,no,0,mu,ja,male,unknown,1993-06-07 00:00:00,0,no,25,,92,,Friends,Fulfillment
+156,3/30/2021 12:05:21,Artificial Intelligence,no,1,unknown,ja,male,neither,1998-03-02 00:00:00,0,no,80,50,69,2021-04-12 23:10:00,Finishing a lot of work,Playing video games with friends
+157,3/30/2021 12:15:56,Artificial Intelligence,no,1,mu,nee,male,I have no idea what you are talking about,1996-12-11 00:00:00,0,no,20,0,46,,sun,soccer
 158,3/30/2021 12:17:26,Artificial Intelligence,yes,1,mu,ja,male,fat,,0,no,20,50,7,2021-04-12 01:00:00,The sun,Being together with friends
-159,3/30/2021 12:18:44,Information Studies: Data Science,yes,1,mu,ja,female,neither,1993-02-19,0,no,0,50,7,,surfing,sun
-160,3/30/2021 12:20:44,CS,yes,unknown,mu,ja,male,neither,1997-09-07,0,no,99,0.05,3456,2021-04-12 01:30:00,Xtc,Weightlifting
+159,3/30/2021 12:18:44,Information Studies: Data Science,yes,1,mu,ja,female,neither,1993-02-19 00:00:00,0,no,0,50,7,,surfing,sun
+160,3/30/2021 12:20:44,Computer Science,yes,unknown,mu,ja,male,neither,1997-09-07 00:00:00,0,no,99,0.05,3456,2021-04-12 01:30:00,Xtc,Weightlifting
 161,3/30/2021 12:24:09,Information Studies: Data Science,no,1,mu,ja,male,neither,,0,no,60,10,15,,Sunny,Friends
 162,3/30/2021 12:26:34,Business Analytics,yes,1,mu,nee,male,fat,,0,no,60,100,12,,Doing Data Mining,Doing more Data Mining
 163,3/30/2021 12:28:12,Artificial Intelligence,no,0,mu,nee,unknown,neither,,1,no,50,5,7,2021-04-12 02:00:00,sun ,friends
-164,3/30/2021 12:29:20,Computational Science,no,0,mu,nee,male,neither,1999-10-02,1,no,10,0.2,10,,No obligations,Being at home
-165,3/30/2021 12:32:25,Artificial Intelligence,no,0,mu,ja,male,fat,1996-06-08,0,no,37,5,7,,snow,not messing up something
+164,3/30/2021 12:29:20,Computational Science,no,0,mu,nee,male,neither,1999-10-02 00:00:00,1,no,10,0.2,10,,No obligations,Being at home
+165,3/30/2021 12:32:25,Artificial Intelligence,no,0,mu,ja,male,fat,1996-06-08 00:00:00,0,no,37,5,7,,snow,not messing up something
 166,3/30/2021 12:33:37,Artificial Intelligence,yes,unknown,mu,ja,female,fat,,0,no,50,40,8,2021-04-12 00:20:00,"Hanging out with friend, some good food and a nice drink.",Riding my horse with some nice weather.
-167,3/30/2021 12:39:07,Artificial Intelligence,no,unknown,mu,nee,male,neither,1995-09-30,1,no,60,5,6,2021-04-12 23:30:00,completed todo tasks,real life social activity with friends
-168,3/30/2021 12:41:22,Business Analytics,yes,0,mu,ja,female,neither,1999-05-19,0,no,50,75,8,2021-04-12 22:00:00,1,2
-169,3/30/2021 12:42:26,Econometrics & Operations Research,no,0,mu,nee,female,neither,1996-04-14,,no,20,10,10,,Nice weather,Breaks and fun with friends
-170,3/30/2021 12:43:04,Artificial Intelligence,no,0,mu,nee,male,fat,1997-05-08,0,no,80,10,9,2021-04-12 22:00:00,good sleep,Me time
-171,3/30/2021 12:46:03,Information Studies: Data Science,no,unknown,mu,ja,female,neither,1996-03-05,8,no,2,50,3,2021-04-12 22:30:00,the sun,finishing the to-do list
-172,3/30/2021 12:46:26,Information Studies: Data Science,yes,0,mu,nee,male,neither,1987-10-01,0,no,70,1,8,2021-04-12 01:00:00,sleeping well,nice breakfast
-173,3/30/2021 12:48:30,Computer Science,yes,0,mu,ja,male,fat,1993-05-11,0,no,30,2.75,42,2021-04-12 02:30:00,Drinking coffee,Programming
-174,3/30/2021 12:49:50,Artificial Intelligence,no,0,mu,ja,male,fat,1996-07-19,1,no,10,0,4,2021-04-12 00:38:00,sunny,cool
-175,3/30/2021 12:49:57,Econometrics and Operations Research ,no,0,sigma,unknown,female,neither,1993-05-16,2,no,80,70,25,2021-04-12 11:45:00,Shining sun,when being appreciated
-176,3/30/2021 12:52:26,Bioinformatics and Systems Biology,yes,1,unknown,ja,male,fat,1991-10-15,2,yes,70,5,42,2021-04-12 09:00:00,Having friends come over,Spending time wth my brothers
-177,3/30/2021 12:53:52,Econometrics and Operations Research ,no,0,mu,ja,female,neither,1993-05-16,2,no,80,5,25,2021-04-12 23:45:00,Shining sun,being appeciated
-178,3/30/2021 12:56:10,Artificial Intelligence,no,0,mu,nee,female,slim,1997-01-05,0,no,80,2,9,2021-04-12 00:00:00,My friends,Good grades
-179,3/30/2021 12:57:17,Econometrics & Operations Research,yes,0,mu,nee,male,I have no idea what you are talking about,1997-01-01,0,yes,60,69,8,2021-04-12 01:00:00,memes,money
+167,3/30/2021 12:39:07,Artificial Intelligence,no,unknown,mu,nee,male,neither,1995-09-30 00:00:00,1,no,60,5,6,2021-04-12 23:30:00,completed todo tasks,real life social activity with friends
+168,3/30/2021 12:41:22,Business Analytics,yes,0,mu,ja,female,neither,1999-05-19 00:00:00,0,no,50,75,8,2021-04-12 22:00:00,1,2
+169,3/30/2021 12:42:26,Econometrics & Operations Research,no,0,mu,nee,female,neither,1996-04-14 00:00:00,,no,20,10,10,,Nice weather,Breaks and fun with friends
+170,3/30/2021 12:43:04,Artificial Intelligence,no,0,mu,nee,male,fat,1997-05-08 00:00:00,0,no,80,10,9,2021-04-12 22:00:00,good sleep,Me time
+171,3/30/2021 12:46:03,Information Studies: Data Science,no,unknown,mu,ja,female,neither,1996-03-05 00:00:00,8,no,2,50,3,2021-04-12 22:30:00,the sun,finishing the to-do list
+172,3/30/2021 12:46:26,Information Studies: Data Science,yes,0,mu,nee,male,neither,1987-10-01 00:00:00,0,no,70,1,8,2021-04-12 01:00:00,sleeping well,nice breakfast
+173,3/30/2021 12:48:30,Computer Science,yes,0,mu,ja,male,fat,1993-05-11 00:00:00,0,no,30,2.75,42,2021-04-12 02:30:00,Drinking coffee,Programming
+174,3/30/2021 12:49:50,Artificial Intelligence,no,0,mu,ja,male,fat,1996-07-19 00:00:00,1,no,10,0,4,2021-04-12 00:38:00,sunny,cool
+175,3/30/2021 12:49:57,Econometrics & Operations Research,no,0,sigma,unknown,female,neither,1993-05-16 00:00:00,2,no,80,70,25,2021-04-12 11:45:00,Shining sun,when being appreciated
+176,3/30/2021 12:52:26,Bioinformatics and Systems Biology,yes,1,unknown,ja,male,fat,1991-10-15 00:00:00,2,yes,70,5,42,2021-04-12 09:00:00,Having friends come over,Spending time wth my brothers
+177,3/30/2021 12:53:52,Econometrics & Operations Research,no,0,mu,ja,female,neither,1993-05-16 00:00:00,2,no,80,5,25,2021-04-12 23:45:00,Shining sun,being appeciated
+178,3/30/2021 12:56:10,Artificial Intelligence,no,0,mu,nee,female,slim,1997-01-05 00:00:00,0,no,80,2,9,2021-04-12 00:00:00,My friends,Good grades
+179,3/30/2021 12:57:17,Econometrics & Operations Research,yes,0,mu,nee,male,I have no idea what you are talking about,1997-01-01 00:00:00,0,yes,60,69,8,2021-04-12 01:00:00,memes,money
 180,3/30/2021 12:58:29,CLS,no,0,mu,ja,male,fat,,0,no,77,100,921,,Spend with Girlfriend,Dinner and game with best friend
-181,3/30/2021 12:59:30,Econometrics & Data Science,yes,0,mu,ja,male,fat,1998-02-07,2,no,10,1,7,2021-04-12 00:30:00,friends,beer
+181,3/30/2021 12:59:30,Econometrics & Data Science,yes,0,mu,ja,male,fat,1998-02-07 00:00:00,2,no,10,1,7,2021-04-12 00:30:00,friends,beer
 182,3/30/2021 13:06:45,Bioinformatics and Systems Biology,yes,0,unknown,unknown,male,unknown,,1,no,90,100,66,,21/04,01/10
-183,3/30/2021 13:08:15,Computational Science,yes,0,mu,nee,male,fat,1995-06-19,0,no,10,10,10,,Football and Beer,Finalising a large project 
-184,3/30/2021 13:12:28,"Management, Policy-Analysis and Entrepreneurship in Health & Life sciences",no,0,mu,ja,female,neither,1996-01-29,1,no,70,50,3,2021-04-12 00:50:00,Petting a dog ,Reaching the goals I set for the day
-185,3/30/2021 13:16:39,Econometrics,yes,0,mu,nee,male,neither,1998-09-07,0,no,80,60,2,2021-04-12 02:30:00,Sleep,Sun
+183,3/30/2021 13:08:15,Computational Science,yes,0,mu,nee,male,fat,1995-06-19 00:00:00,0,no,10,10,10,,Football and Beer,Finalising a large project 
+184,3/30/2021 13:12:28,"Management, Policy-Analysis and Entrepreneurship in Health & Life sciences",no,0,mu,ja,female,neither,1996-01-29 00:00:00,1,no,70,50,3,2021-04-12 00:50:00,Petting a dog ,Reaching the goals I set for the day
+185,3/30/2021 13:16:39,Econometrics,yes,0,mu,nee,male,neither,1998-09-07 00:00:00,0,no,80,60,2,2021-04-12 02:30:00,Sleep,Sun
 186,3/30/2021 13:18:40,Computer Science,no,1,mu,ja,male,neither,,1,no,90,,4,2021-04-12 00:30:00,family,exercise
-187,3/30/2021 13:20:00,Finance and Technology,yes,0,mu,nee,male,slim,1996-06-27,1,no,80,50,8,2021-04-12 00:30:00,Sunlight,Nice company
-188,3/30/2021 13:20:45,Artificial Intelligence,yes,1,mu,nee,male,I have no idea what you are talking about,1997-06-29,6,no,100,,397,,Filling in a form about data mining,No ronas
+187,3/30/2021 13:20:00,Finance and Technology,yes,0,mu,nee,male,slim,1996-06-27 00:00:00,1,no,80,50,8,2021-04-12 00:30:00,Sunlight,Nice company
+188,3/30/2021 13:20:45,Artificial Intelligence,yes,1,mu,nee,male,I have no idea what you are talking about,1997-06-29 00:00:00,6,no,100,,397,,Filling in a form about data mining,No ronas
 189,3/30/2021 13:26:16,Computational Science,no,0,mu,nee,male,slim,,,yes,66,0.8,6,2021-04-12 23:00:00,Sun,Sports
-190,3/30/2021 13:30:42,Computational Science,no,0,unknown,nee,male,fat,1994-03-22,0,no,50,0,562,,Not being tired,Eating tasty food
+190,3/30/2021 13:30:42,Computational Science,no,0,unknown,nee,male,fat,1994-03-22 00:00:00,0,no,50,0,562,,Not being tired,Eating tasty food
 191,3/30/2021 13:33:38,Computational Science,no,0,mu,nee,male,slim,,0,no,1,0,312,2021-04-12 03:00:00,productivity,variety
 192,3/30/2021 13:40:00,Econometrics & Operations Research,no,0,mu,ja,male,fat,,2,yes,80,20,7,2021-04-12 03:30:00,sun,girls
-193,3/30/2021 13:41:52,Computational Science,no,0,mu,nee,male,slim,1991-07-20,1,no,30,10,3,,good food,plenty of sleep
-194,3/30/2021 13:45:25,Bioinformatics and Systems Biology,yes,0,unknown,nee,female,I have no idea what you are talking about,1998-09-02,0,no,55,40,5531,,Sun,Cheese
-195,3/30/2021 13:46:26,Artificial Intelligence,yes,0,mu,nee,male,neither,1997-05-26,0,yes,15,,12,2021-04-12 23:59:00,BBQ,Surf
-196,3/30/2021 13:46:59,Computational Science,yes,1,sigma,ja,unknown,unknown,1992-10-28,0,no,99,,1103,2021-04-12 22:15:00,Running,Social activity
+193,3/30/2021 13:41:52,Computational Science,no,0,mu,nee,male,slim,1991-07-20 00:00:00,1,no,30,10,3,,good food,plenty of sleep
+194,3/30/2021 13:45:25,Bioinformatics and Systems Biology,yes,0,unknown,nee,female,I have no idea what you are talking about,1998-09-02 00:00:00,0,no,55,40,5531,,Sun,Cheese
+195,3/30/2021 13:46:26,Artificial Intelligence,yes,0,mu,nee,male,neither,1997-05-26 00:00:00,0,yes,15,,12,2021-04-12 23:59:00,BBQ,Surf
+196,3/30/2021 13:46:59,Computational Science,yes,1,sigma,ja,unknown,unknown,1992-10-28 00:00:00,0,no,99,,1103,2021-04-12 22:15:00,Running,Social activity
 197,3/30/2021 13:47:18,Bioinformatics and Systems Biology,yes,0,unknown,nee,female,I have no idea what you are talking about,,0,no,19,100,7,,Weather,food
-198,3/30/2021 13:47:20,Computational Science,yes,0,mu,nee,female,fat,1997-03-17,0,no,50,100,9,,Kitesurfing,Sunshine
+198,3/30/2021 13:47:20,Computational Science,yes,0,mu,nee,female,fat,1997-03-17 00:00:00,0,no,50,100,9,,Kitesurfing,Sunshine
 199,3/30/2021 13:47:21,Computational Science,no,0,mu,nee,male,neither,,0,no,92,,860394992932992,,pizza,sun
-200,3/30/2021 13:47:31,Artificial Intelligence,no,0,mu,nee,female,neither,1998-10-01,0,no,30,,7,2021-04-12 23:30:00,When the sun is out,Nice plans for the day 
-201,3/30/2021 13:48:08,Human Language Technology,yes,0,unknown,nee,female,I have no idea what you are talking about,1997-01-01,1,no,60,,86,2021-04-12 01:00:00,coffee,sunshine
-202,3/30/2021 13:48:10,Computer Science,no,1,mu,ja,male,slim,1993-08-06,0,no,78,100,2,2021-04-12 00:00:00,Sunshine,More sunshine
-203,3/30/2021 13:48:56,Artificial Intelligence,yes,1,mu,ja,male,slim,1997-04-06,0,unknown,69,,7,2021-04-12 12:00:00,fun,bright sun
+200,3/30/2021 13:47:31,Artificial Intelligence,no,0,mu,nee,female,neither,1998-10-01 00:00:00,0,no,30,,7,2021-04-12 23:30:00,When the sun is out,Nice plans for the day 
+201,3/30/2021 13:48:08,Human Language Technology,yes,0,unknown,nee,female,I have no idea what you are talking about,1997-01-01 00:00:00,1,no,60,,86,2021-04-12 01:00:00,coffee,sunshine
+202,3/30/2021 13:48:10,Computer Science,no,1,mu,ja,male,slim,1993-08-06 00:00:00,0,no,78,100,2,2021-04-12 00:00:00,Sunshine,More sunshine
+203,3/30/2021 13:48:56,Artificial Intelligence,yes,1,mu,ja,male,slim,1997-04-06 00:00:00,0,unknown,69,,7,2021-04-12 12:00:00,fun,bright sun
 204,3/30/2021 13:49:10,Artificial Intelligence,yes,1,mu,ja,male,I have no idea what you are talking about,,0,no,10,1,1927512042,2021-04-12 02:00:00,Good feelings,A lot of fun
-205,3/30/2021 13:49:13,Information Studies: Data Science,yes,unknown,unknown,ja,male,slim,1996-05-20,6,no,1,100,2,2021-04-12 05:15:00,Drinking Beer,Gaming with Friends
-206,3/30/2021 13:49:29,Bioinformatics and Systems Biology,yes,0,mu,ja,male,neither,1998-04-06,0,no,45,0.5,3.141592,2021-04-12 23:00:00,sun,freedom
+205,3/30/2021 13:49:13,Information Studies: Data Science,yes,unknown,unknown,ja,male,slim,1996-05-20 00:00:00,6,no,1,100,2,2021-04-12 05:15:00,Drinking Beer,Gaming with Friends
+206,3/30/2021 13:49:29,Bioinformatics and Systems Biology,yes,0,mu,ja,male,neither,1998-04-06 00:00:00,0,no,45,0.5,3.141592,2021-04-12 23:00:00,sun,freedom
 207,3/30/2021 13:49:45,Information Studies: Data Science,yes,0,sigma,nee,male,fat,,0,no,0,,2,,enjoying the sun,spending time with my sons
-208,3/30/2021 13:49:52,Computational Science,no,0,mu,nee,male,fat,1994-01-12,0,no,0,,5.46747E+019,2021-04-12 10:00:00,Sports,Beer
-209,3/30/2021 13:49:54,Artificial Intelligence,yes,1,mu,nee,male,fat,1998-06-05,0,no,80,,8.39277599288728E+019,2021-04-12 12:30:00,friday,saturday
-210,3/30/2021 13:50:06,Computational Sciences,no,0,mu,nee,female,neither,1993-10-20,0,no,35,3,7.53276805768979E+031,,Friends,completing tasks
-211,3/30/2021 13:50:07,Business Analytics,no,0,mu,nee,male,neither,1999-02-20,0,yes,44,2,5,2021-04-12 01:00:00,football,running
-212,3/30/2021 13:50:37,Business Analytics,yes,unknown,mu,ja,female,neither,1997-01-01,4,yes,8,,8,2021-04-12 22:00:00,Cats,Sunshine
-213,3/30/2021 13:51:02,Business Analytics,yes,1,mu,ja,male,neither,1998-08-27,1,no,20,1,54509,,Beer and friends,No obligations
-214,3/30/2021 13:51:08,Computer Science,yes,1,mu,ja,female,I have no idea what you are talking about,1996-12-16,0,no,50,100,34,,sunshine,good food
-215,3/30/2021 13:51:09,Artificial Intelligence,yes,0,mu,nee,male,I have no idea what you are talking about,1995-09-21,0,no,80,,77,,"If a spend my day usefull. Learned new things, improving myself",Good weather
-216,3/30/2021 13:51:23,Computational Science,yes,0,mu,ja,male,slim,1990-02-21,,yes,80,20,13,2021-04-12 22:00:00,Ice cream,double ice cream
-217,3/30/2021 13:51:33,Artificial Intelligence,no,0,mu,nee,male,I have no idea what you are talking about,1996-08-24,0,unknown,25,25,69,2021-04-12 21:37:00,No work,No stress
+208,3/30/2021 13:49:52,Computational Science,no,0,mu,nee,male,fat,1994-01-12 00:00:00,0,no,0,,5.46747E+019,2021-04-12 10:00:00,Sports,Beer
+209,3/30/2021 13:49:54,Artificial Intelligence,yes,1,mu,nee,male,fat,1998-06-05 00:00:00,0,no,80,,8.39277599288728E+019,2021-04-12 12:30:00,friday,saturday
+210,3/30/2021 13:50:06,Computational Science,no,0,mu,nee,female,neither,1993-10-20 00:00:00,0,no,35,3,7.53276805768979E+031,,Friends,completing tasks
+211,3/30/2021 13:50:07,Business Analytics,no,0,mu,nee,male,neither,1999-02-20 00:00:00,0,yes,44,2,5,2021-04-12 01:00:00,football,running
+212,3/30/2021 13:50:37,Business Analytics,yes,unknown,mu,ja,female,neither,1997-01-01 00:00:00,4,yes,8,,8,2021-04-12 22:00:00,Cats,Sunshine
+213,3/30/2021 13:51:02,Business Analytics,yes,1,mu,ja,male,neither,1998-08-27 00:00:00,1,no,20,1,54509,,Beer and friends,No obligations
+214,3/30/2021 13:51:08,Computer Science,yes,1,mu,ja,female,I have no idea what you are talking about,1996-12-16 00:00:00,0,no,50,100,34,,sunshine,good food
+215,3/30/2021 13:51:09,Artificial Intelligence,yes,0,mu,nee,male,I have no idea what you are talking about,1995-09-21 00:00:00,0,no,80,,77,,"If a spend my day usefull. Learned new things, improving myself",Good weather
+216,3/30/2021 13:51:23,Computational Science,yes,0,mu,ja,male,slim,1990-02-21 00:00:00,,yes,80,20,13,2021-04-12 22:00:00,Ice cream,double ice cream
+217,3/30/2021 13:51:33,Artificial Intelligence,no,0,mu,nee,male,I have no idea what you are talking about,1996-08-24 00:00:00,0,unknown,25,25,69,2021-04-12 21:37:00,No work,No stress
 218,3/30/2021 13:52:11,Business Analytics,yes,1,mu,ja,male,I have no idea what you are talking about,,0,no,50,0.69,6,2021-04-12 00:30:00,Good grade,Not filling in excessively long forms
 219,3/30/2021 13:53:02,Computer Science,yes,0,sigma,nee,male,fat,,0,no,70,5,666,,coffee,jogging
-220,3/30/2021 13:53:25,Computational Science,yes,1,mu,ja,male,neither,1991-01-01,0,yes,60,,0,,Sunshine,Warm weather
+220,3/30/2021 13:53:25,Computational Science,yes,1,mu,ja,male,neither,1991-01-01 00:00:00,0,yes,60,,0,,Sunshine,Warm weather
 221,3/30/2021 13:53:30,Computer Science,yes,1,mu,nee,female,I have no idea what you are talking about,,,no,100,80,9,,Movements,Food
-222,3/30/2021 13:53:48,Business Analytics,yes,0,mu,nee,male,neither,1997-07-30,,no,20,20,18,,Sun,Beer
-223,3/30/2021 13:54:12,Econometrics & Data Science,yes,0,sigma,nee,male,neither,1995-03-25,1,no,99,,555,2021-04-12 11:11:00,Good company,Good food
+222,3/30/2021 13:53:48,Business Analytics,yes,0,mu,nee,male,neither,1997-07-30 00:00:00,,no,20,20,18,,Sun,Beer
+223,3/30/2021 13:54:12,Econometrics & Data Science,yes,0,sigma,nee,male,neither,1995-03-25 00:00:00,1,no,99,,555,2021-04-12 11:11:00,Good company,Good food
 224,3/30/2021 13:54:28,Bioinformatics and Systems Biology,yes,unknown,unknown,nee,female,fat,,2,no,80,,7,,Nice weather,Food
-225,3/30/2021 13:56:54,Artificial Intelligence,no,0,mu,nee,female,slim,1992-07-06,0,no,60,20,5,2021-04-12 23:00:00,Doing something meaningful,sun
-226,3/30/2021 13:58:13,Information Studies: Data Science,yes,0,unknown,ja,female,neither,1995-02-10,0,yes,75,10,5,,nothing,nothing
+225,3/30/2021 13:56:54,Artificial Intelligence,no,0,mu,nee,female,slim,1992-07-06 00:00:00,0,no,60,20,5,2021-04-12 23:00:00,Doing something meaningful,sun
+226,3/30/2021 13:58:13,Information Studies: Data Science,yes,0,unknown,ja,female,neither,1995-02-10 00:00:00,0,yes,75,10,5,,nothing,nothing
 227,3/30/2021 13:59:04,Bioinformatics and Systems Biology,yes,1,sigma,nee,male,neither,,0,no,80,50,18,,good weather ,no body dies 
-228,3/30/2021 13:59:37,Artificial Intelligence,yes,0,mu,nee,male,slim,1994-10-14,0,no,0,100,7,2021-04-12 23:34:00,Love,Happiness
-229,3/30/2021 14:04:42,https://forms.gle/eTy4nEs3khRqPtMLA,yes,0,mu,ja,male,I have no idea what you are talking about,1996-10-02,2,no,55,,5,,Productivity,Fun
-230,3/30/2021 14:05:45,Information Studies: Data Science,yes,0,mu,ja,female,fat,1998-02-03,0,no,100,70,98,2021-04-12 15:00:00,nice food,good workout
+228,3/30/2021 13:59:37,Artificial Intelligence,yes,0,mu,nee,male,slim,1994-10-14 00:00:00,0,no,0,100,7,2021-04-12 23:34:00,Love,Happiness
+229,3/30/2021 14:04:42,https://forms.gle/eTy4nEs3khRqPtMLA,yes,0,mu,ja,male,I have no idea what you are talking about,1996-10-02 00:00:00,2,no,55,,5,,Productivity,Fun
+230,3/30/2021 14:05:45,Information Studies: Data Science,yes,0,mu,ja,female,fat,1998-02-03 00:00:00,0,no,100,70,98,2021-04-12 15:00:00,nice food,good workout
 231,3/30/2021 14:10:58,Business Analytics,yes,1,mu,ja,unknown,neither,,1,yes,40,5,8,,-,-
 232,3/30/2021 14:21:35,Computational Science,no,0,mu,nee,male,slim,,,yes,66,0.8,6,2021-04-12 23:00:00,Sun,Sports
-233,3/30/2021 14:24:07,Business Analytics,yes,1,mu,ja,male,fat,1998-09-03,0,no,20,100,3,2021-04-12 10:00:00,Being productive,Relaxing after being productive
-234,3/30/2021 14:24:10,Artificial Intelligence  ,no,0,mu,ja,male,fat,1996-01-30,1,no,80,100,3298472987298,2021-04-12 23:00:00,Good sleep,No homework
+233,3/30/2021 14:24:07,Business Analytics,yes,1,mu,ja,male,fat,1998-09-03 00:00:00,0,no,20,100,3,2021-04-12 10:00:00,Being productive,Relaxing after being productive
+234,3/30/2021 14:24:10,Artificial Intelligence  ,no,0,mu,ja,male,fat,1996-01-30 00:00:00,1,no,80,100,3298472987298,2021-04-12 23:00:00,Good sleep,No homework
 235,3/30/2021 14:24:26,Artificial Intelligence,yes,0,mu,nee,female,I have no idea what you are talking about,,0,no,55,5,25,2021-04-12 10:00:00,Sun,Good food
-236,3/30/2021 14:24:33,Artificial Intelligence,yes,1,mu,ja,male,fat,1995-10-27,0,no,70,99.99,4654,,"work, friends, play, food, sex","relaxation, laziness, ice cream"
-237,3/30/2021 14:24:51,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1901-01-01,0,no,,0,1,2021-04-12 08:00:00,FIFA2020,FIFA2021
-238,3/30/2021 14:25:10,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1999-07-02,0,no,60,5,8,2021-04-12 01:00:00,Sleeping in,No mandatory to do's 
-239,3/30/2021 14:26:11,Quantative Risk Management,no,0,mu,nee,male,fat,1998-12-17,0,yes,25,,34572954852845,2021-04-12 11:31:00,happiness,general feelings of happiness caused by a multitude of factors
-240,3/30/2021 14:29:48,Business Analytics,yes,0,mu,nee,male,I have no idea what you are talking about,1966-06-27,0,no,90,100,68,,Universe is there,Universe is still there
-241,3/30/2021 14:30:33,Artificial Intelligence,yes,1,mu,ja,female,I have no idea what you are talking about,1999-01-03,0,no,35,40,8,2021-04-12 23:45:00,Nice weather,Being able to do something fun without having to think about anything else 
+236,3/30/2021 14:24:33,Artificial Intelligence,yes,1,mu,ja,male,fat,1995-10-27 00:00:00,0,no,70,99.99,4654,,"work, friends, play, food, sex","relaxation, laziness, ice cream"
+237,3/30/2021 14:24:51,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1901-01-01 00:00:00,0,no,,0,1,2021-04-12 08:00:00,FIFA2020,FIFA2021
+238,3/30/2021 14:25:10,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1999-07-02 00:00:00,0,no,60,5,8,2021-04-12 01:00:00,Sleeping in,No mandatory to do's 
+239,3/30/2021 14:26:11,Quantative Risk Management,no,0,mu,nee,male,fat,1998-12-17 00:00:00,0,yes,25,,34572954852845,2021-04-12 11:31:00,happiness,general feelings of happiness caused by a multitude of factors
+240,3/30/2021 14:29:48,Business Analytics,yes,0,mu,nee,male,I have no idea what you are talking about,1966-06-27 00:00:00,0,no,90,100,68,,Universe is there,Universe is still there
+241,3/30/2021 14:30:33,Artificial Intelligence,yes,1,mu,ja,female,I have no idea what you are talking about,1999-01-03 00:00:00,0,no,35,40,8,2021-04-12 23:45:00,Nice weather,Being able to do something fun without having to think about anything else 
 242,3/30/2021 14:32:23,Artificial Intelligence,yes,1,mu,nee,male,neither,,0,no,57,100,8.94654321199795E+025,,cat 1,cat 2
-243,3/30/2021 14:32:59,Business Analytics,yes,0,mu,ja,male,I have no idea what you are talking about,1999-07-17,0,no,33,,3.5,,Girlfriend,Winning
-244,3/30/2021 14:35:08,Artificial Intelligence,no,unknown,mu,nee,female,I have no idea what you are talking about,1995-08-03,2,no,68,13,37,2021-04-12 00:30:00,sleep,sun
-245,3/30/2021 14:40:53,Quantative Risk Management,yes,0,mu,nee,male,fat,1996-01-01,,no,50,10,4,2021-04-12 23:00:00,good weather,less stress
-246,3/30/2021 14:41:07,Econometrics & Data Science,no,0,sigma,nee,female,fat,1997-06-29,1,yes,60,5,7,,Pancakes ,Sun
-247,3/30/2021 14:44:53,Artificial Intelligence,yes,0,mu,ja,female,neither,1999-04-23,1,no,20,100,23,,reading,no school
-248,3/30/2021 14:51:18,Business Analytics,yes,1,mu,ja,male,fat,1999-04-19,3,no,75,100,6.9,,Good amount of sleep,Doing something new
-249,3/30/2021 14:56:37,Bioinformatics and Systems Biology,yes,0,sigma,nee,female,I have no idea what you are talking about,1988-02-06,1,no,70,30,3,2021-04-12 00:45:00,Sunny and dry weather,having good conversations with friends
-250,3/30/2021 15:01:20,Finance and Technology,yes,0,mu,nee,male,neither,1992-05-05,1,no,90,10,7,2021-04-12 12:47:00,sun is out,work out
-251,3/30/2021 15:32:10,Bioinformatics and Systems Biology,yes,unknown,mu,unknown,female,slim,1998-04-09,0,no,55,,4,,Sleep,Food
-252,3/30/2021 15:45:22,Bioinformatics and Systems Biology,no,0,unknown,ja,female,neither,1976-01-05,0,no,50,5,6,2021-04-12 00:01:00,Getting stuff done,Trying something new
-253,3/30/2021 15:46:56,CS,no,0,mu,nee,female,fat,1995-11-24,0,no,60,20,4,,Coffee,Video game
-254,3/30/2021 16:00:00,Econometrics & Operations Research ,no,0,sigma,nee,male,fat,1997-09-30,0,no,27.5,0.5,8,2021-04-12 00:30:00,Gym/sport ,Drinking 
-255,3/30/2021 16:06:45,Computational Science,no,unknown,mu,nee,male,I have no idea what you are talking about,1995-04-14,4,no,30,0,no,,a variety of activities,what i said before this question
-256,3/30/2021 17:22:43,Business Analytics,yes,0,mu,nee,female,neither,1996-11-26,0,no,65,25,6,,Nice weather,Friends
+243,3/30/2021 14:32:59,Business Analytics,yes,0,mu,ja,male,I have no idea what you are talking about,1999-07-17 00:00:00,0,no,33,,3.5,,Girlfriend,Winning
+244,3/30/2021 14:35:08,Artificial Intelligence,no,unknown,mu,nee,female,I have no idea what you are talking about,1995-08-03 00:00:00,2,no,68,13,37,2021-04-12 00:30:00,sleep,sun
+245,3/30/2021 14:40:53,Quantative Risk Management,yes,0,mu,nee,male,fat,1996-01-01 00:00:00,,no,50,10,4,2021-04-12 23:00:00,good weather,less stress
+246,3/30/2021 14:41:07,Econometrics & Data Science,no,0,sigma,nee,female,fat,1997-06-29 00:00:00,1,yes,60,5,7,,Pancakes ,Sun
+247,3/30/2021 14:44:53,Artificial Intelligence,yes,0,mu,ja,female,neither,1999-04-23 00:00:00,1,no,20,100,23,,reading,no school
+248,3/30/2021 14:51:18,Business Analytics,yes,1,mu,ja,male,fat,1999-04-19 00:00:00,3,no,75,100,6.9,,Good amount of sleep,Doing something new
+249,3/30/2021 14:56:37,Bioinformatics and Systems Biology,yes,0,sigma,nee,female,I have no idea what you are talking about,1988-02-06 00:00:00,1,no,70,30,3,2021-04-12 00:45:00,Sunny and dry weather,having good conversations with friends
+250,3/30/2021 15:01:20,Finance and Technology,yes,0,mu,nee,male,neither,1992-05-05 00:00:00,1,no,90,10,7,2021-04-12 12:47:00,sun is out,work out
+251,3/30/2021 15:32:10,Bioinformatics and Systems Biology,yes,unknown,mu,unknown,female,slim,1998-04-09 00:00:00,0,no,55,,4,,Sleep,Food
+252,3/30/2021 15:45:22,Bioinformatics and Systems Biology,no,0,unknown,ja,female,neither,1976-01-05 00:00:00,0,no,50,5,6,2021-04-12 00:01:00,Getting stuff done,Trying something new
+253,3/30/2021 15:46:56,Computer Science,no,0,mu,nee,female,fat,1995-11-24 00:00:00,0,no,60,20,4,,Coffee,Video game
+254,3/30/2021 16:00:00,Econometrics & Operations Research ,no,0,sigma,nee,male,fat,1997-09-30 00:00:00,0,no,27.5,0.5,8,2021-04-12 00:30:00,Gym/sport ,Drinking 
+255,3/30/2021 16:06:45,Computational Science,no,unknown,mu,nee,male,I have no idea what you are talking about,1995-04-14 00:00:00,4,no,30,0,no,,a variety of activities,what i said before this question
+256,3/30/2021 17:22:43,Business Analytics,yes,0,mu,nee,female,neither,1996-11-26 00:00:00,0,no,65,25,6,,Nice weather,Friends
 257,3/30/2021 17:22:58,Bioinformatics and Systems Biology,yes,unknown,mu,ja,female,fat,,2,no,75,5,7,2021-04-12 23:30:00,Sunny weather,Taking medicine
-258,3/30/2021 17:31:48,Artificial Intelligence,no,0,mu,nee,male,fat,1993-04-29,2,no,76,35,3,,Health,Family
+258,3/30/2021 17:31:48,Artificial Intelligence,no,0,mu,nee,male,fat,1993-04-29 00:00:00,2,no,76,35,3,,Health,Family
 259,3/30/2021 17:32:22,Bioinformatics and Systems Biology,yes,0,mu,ja,male,fat,,0,yes,65,40,2,2021-04-12 23:00:00,can relax,Can do some kind of activity (sports)
-260,3/30/2021 17:32:37,Business Analytics,yes,1,mu,ja,male,slim,1998-06-01,0,no,10,10,5,2021-04-12 23:30:00,no stress,doing sports
+260,3/30/2021 17:32:37,Business Analytics,yes,1,mu,ja,male,slim,1998-06-01 00:00:00,0,no,10,10,5,2021-04-12 23:30:00,no stress,doing sports
 261,3/30/2021 17:34:15,Computer Science,yes,1,mu,ja,male,fat,,0,no,50,10,6,2021-04-12 23:00:00,Free,Sports
-262,3/30/2021 17:35:59,Quantative Risk Management,no,0,mu,nee,male,neither,1998-02-26,2,no,100,,48294,2021-04-12 02:00:00,Not filling in pointless surveys,Seeing loved ones
-263,3/30/2021 17:38:28,Computational Science,yes,1,mu,ja,female,neither,1997-03-06,0,unknown,80,30,76,2021-04-12 22:15:00,Good food,Friends 
-264,3/30/2021 17:45:04,Artificial Intelligence,yes,0,mu,nee,female,neither,1997-09-23,0,no,80,,5,,laughter,no homework
-265,3/30/2021 17:46:28,Artificial Intelligence,yes,1,mu,ja,male,fat,1895-09-30,,yes,,,67,2021-04-12 23:23:00,Sunny weather,Women with sundresses on
-266,3/30/2021 17:46:38,Finance and Technology,yes,0,mu,nee,male,neither,1988-04-15,7,yes,25,100,13,,Fun,Sleep
-267,3/30/2021 17:53:12,MSc Ai,yes,1,mu,ja,male,slim,,,unknown,100,100,8.75445667899839E+017,,,Sex
-268,3/30/2021 17:57:08,Artificial Intelligence,yes,1,mu,ja,male,neither,1995-03-05,0,no,99,3.14,69,,No deadlines,#ADATOTHEMOON
-269,3/30/2021 17:58:46,Business Analytics,yes,1,mu,ja,female,I have no idea what you are talking about,1997-04-09,0,no,100,2,5,,Hot temperature,Airco
-270,3/30/2021 18:02:16,Artificial Intelligence,yes,1,mu,ja,male,fat,1995-04-01,1,no,10,0.5,1,,Good sleep,Nice people
-271,3/30/2021 18:02:50,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24,0,no,100,10,28,,Meeting a friend ,Having a good meal
+262,3/30/2021 17:35:59,Quantative Risk Management,no,0,mu,nee,male,neither,1998-02-26 00:00:00,2,no,100,,48294,2021-04-12 02:00:00,Not filling in pointless surveys,Seeing loved ones
+263,3/30/2021 17:38:28,Computational Science,yes,1,mu,ja,female,neither,1997-03-06 00:00:00,0,unknown,80,30,76,2021-04-12 22:15:00,Good food,Friends 
+264,3/30/2021 17:45:04,Artificial Intelligence,yes,0,mu,nee,female,neither,1997-09-23 00:00:00,0,no,80,,5,,laughter,no homework
+265,3/30/2021 17:46:28,Artificial Intelligence,yes,1,mu,ja,male,fat,1895-09-30 00:00:00,,yes,,,67,2021-04-12 23:23:00,Sunny weather,Women with sundresses on
+266,3/30/2021 17:46:38,Finance and Technology,yes,0,mu,nee,male,neither,1988-04-15 00:00:00,7,yes,25,100,13,,Fun,Sleep
+267,3/30/2021 17:53:12,Artificial Intelligence,yes,1,mu,ja,male,slim,,,unknown,100,100,8.75445667899839E+017,,,Sex
+268,3/30/2021 17:57:08,Artificial Intelligence,yes,1,mu,ja,male,neither,1995-03-05 00:00:00,0,no,99,3.14,69,,No deadlines,#ADATOTHEMOON
+269,3/30/2021 17:58:46,Business Analytics,yes,1,mu,ja,female,I have no idea what you are talking about,1997-04-09 00:00:00,0,no,100,2,5,,Hot temperature,Airco
+270,3/30/2021 18:02:16,Artificial Intelligence,yes,1,mu,ja,male,fat,1995-04-01 00:00:00,1,no,10,0.5,1,,Good sleep,Nice people
+271,3/30/2021 18:02:50,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24 00:00:00,0,no,100,10,28,,Meeting a friend ,Having a good meal
 272,3/30/2021 18:04:36,Artificial Intelligence,no,1,mu,ja,unknown,slim,,1,no,30,100,0,2021-04-12 01:00:00,Making money and not being with my girlfriend,Not being with my girlfriend and making money
-273,3/30/2021 18:11:57,Artificial Intelligence,yes,1,mu,ja,female,slim,1998-05-08,1,no,100,0,666,2021-04-12 23:00:00,Sun,Chocolate
-274,3/30/2021 18:12:21,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24,0,no,100,10,28,,Meeting a friend ,Having a good meal
+273,3/30/2021 18:11:57,Artificial Intelligence,yes,1,mu,ja,female,slim,1998-05-08 00:00:00,1,no,100,0,666,2021-04-12 23:00:00,Sun,Chocolate
+274,3/30/2021 18:12:21,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24 00:00:00,0,no,100,10,28,,Meeting a friend ,Having a good meal
 275,3/30/2021 18:12:43,Artificial Intelligence,yes,0,sigma,ja,unknown,neither,,7,no,69,,No,2021-04-12 01:30:00,Good food,Lots of sleep
-276,3/30/2021 18:19:03,Bioinformatics and Systems Biology,no,0,sigma,ja,female,fat,1997-01-23,,no,100,,5,,less hmw,clear instructions to get 10 from hmw!
-277,3/30/2021 18:35:43,Bioinformatics and Systems Biology,yes,0,sigma,ja,male,fat,1993-06-20,,unknown,100,100,6,,productive,funny
-278,3/30/2021 18:39:26,Artificial Intelligence,yes,1,mu,nee,male,slim,2000-06-16,1,no,40,50,50,,50,50
-279,3/30/2021 18:39:31,M Bioinformatics and Systems Biology,yes,0,mu,nee,female,I have no idea what you are talking about,1996-06-07,0,no,100,30,10,2021-04-12 16:00:00,"No homework, no school","No school, no homework"
-280,3/30/2021 18:39:35,Econometrics & Data Science,yes,0,mu,nee,male,fat,1997-08-31,0,no,50,50,9,2021-04-12 02:00:00,Good weather,No covid
-281,3/30/2021 18:48:33,Je zusje,yes,1,mu,ja,unknown,slim,2001-01-01,6,yes,99,,0,,1,2
-282,3/30/2021 18:56:08,Econometrics & Data Science,no,0,mu,ja,male,I have no idea what you are talking about,2001-01-01,4,no,0,100,O0087022017,2021-04-12 01:11:00,Puthie,More puthie
-283,3/30/2021 19:03:43,Artificial Intelligence,yes,0,mu,ja,male,I have no idea what you are talking about,1998-07-28,0,no,35,33,1321,2021-04-12 23:49:00,weather,full stomach
-284,3/30/2021 19:05:48,Quantative Risk Management,yes,1,mu,ja,female,I have no idea what you are talking about,1996-06-27,1,no,22,75,5,2021-04-12 02:00:00,Surrounded with family,Food
-285,3/30/2021 19:06:48,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24,0,no,100,10,28,,Meeting a friend ,Having a good meal
-286,3/30/2021 19:36:23,Artificial Intelligence,yes,1,mu,ja,female,slim,1998-05-08,1,no,100,0,666,2021-04-12 23:00:00,Sun,Chocolate
-287,3/30/2021 19:39:32,Econometrics,yes,1,mu,ja,male,neither,1998-01-15,2,yes,60,60,82,,Sun,Girls
+276,3/30/2021 18:19:03,Bioinformatics and Systems Biology,no,0,sigma,ja,female,fat,1997-01-23 00:00:00,,no,100,,5,,less hmw,clear instructions to get 10 from hmw!
+277,3/30/2021 18:35:43,Bioinformatics and Systems Biology,yes,0,sigma,ja,male,fat,1993-06-20 00:00:00,,unknown,100,100,6,,productive,funny
+278,3/30/2021 18:39:26,Artificial Intelligence,yes,1,mu,nee,male,slim,2000-06-16 00:00:00,1,no,40,50,50,,50,50
+279,3/30/2021 18:39:31,Bioinformatics and Systems Biology,yes,0,mu,nee,female,I have no idea what you are talking about,1996-06-07 00:00:00,0,no,100,30,10,2021-04-12 16:00:00,"No homework, no school","No school, no homework"
+280,3/30/2021 18:39:35,Econometrics & Data Science,yes,0,mu,nee,male,fat,1997-08-31 00:00:00,0,no,50,50,9,2021-04-12 02:00:00,Good weather,No covid
+281,3/30/2021 18:48:33,Je zusje,yes,1,mu,ja,unknown,slim,2001-01-01 00:00:00,6,yes,99,,0,,1,2
+282,3/30/2021 18:56:08,Econometrics & Data Science,no,0,mu,ja,male,I have no idea what you are talking about,2001-01-01 00:00:00,4,no,0,100,O0087022017,2021-04-12 01:11:00,Puthie,More puthie
+283,3/30/2021 19:03:43,Artificial Intelligence,yes,0,mu,ja,male,I have no idea what you are talking about,1998-07-28 00:00:00,0,no,35,33,1321,2021-04-12 23:49:00,weather,full stomach
+284,3/30/2021 19:05:48,Quantative Risk Management,yes,1,mu,ja,female,I have no idea what you are talking about,1996-06-27 00:00:00,1,no,22,75,5,2021-04-12 02:00:00,Surrounded with family,Food
+285,3/30/2021 19:06:48,Bioinformatics and Systems Biology,no,0,mu,nee,male,neither,1995-10-24 00:00:00,0,no,100,10,28,,Meeting a friend ,Having a good meal
+286,3/30/2021 19:36:23,Artificial Intelligence,yes,1,mu,ja,female,slim,1998-05-08 00:00:00,1,no,100,0,666,2021-04-12 23:00:00,Sun,Chocolate
+287,3/30/2021 19:39:32,Econometrics,yes,1,mu,ja,male,neither,1998-01-15 00:00:00,2,yes,60,60,82,,Sun,Girls
 288,3/30/2021 19:59:03,Big Data,yes,0,mu,ja,male,neither,,2,no,60,,7,2021-04-12 12:20:00,delicious food,relaxing atmosphere 
-289,3/30/2021 20:05:41,Information Studies: Data Science,yes,0,mu,nee,female,neither,1997-03-26,1,yes,98,0,42069,,Finishing tasks,GME go brrrr
-290,3/30/2021 20:05:56,Bioinformatics and Systems Biology ,yes,1,sigma,ja,male,slim,1996-01-22,1,yes,50,0,35,,Sun,Wine
+289,3/30/2021 20:05:41,Information Studies: Data Science,yes,0,mu,nee,female,neither,1997-03-26 00:00:00,1,yes,98,0,42069,,Finishing tasks,GME go brrrr
+290,3/30/2021 20:05:56,Bioinformatics and Systems Biology ,yes,1,sigma,ja,male,slim,1996-01-22 00:00:00,1,yes,50,0,35,,Sun,Wine
 291,3/30/2021 20:19:21,Econometrics & Operations Research,yes,0,mu,ja,female,fat,,0,no,80,,10,,Good food,Sunny day
 292,3/30/2021 20:26:14,Information Studies: Data Science,yes,1,mu,ja,male,fat,,0,no,100,,52,,Warhammer,Warhammer 40.000
-293,3/30/2021 20:31:27,Mathematics,yes,0,sigma,nee,unknown,I have no idea what you are talking about,1997-08-24,0,unknown,45,0,e,,you,also you
+293,3/30/2021 20:31:27,Mathematics,yes,0,sigma,nee,unknown,I have no idea what you are talking about,1997-08-24 00:00:00,0,unknown,45,0,e,,you,also you
 294,3/30/2021 21:00:15,Econometrics & Operations Research,yes,0,mu,ja,male,neither,,3,yes,10,50,6,2021-04-12 01:00:00,love,sex
-295,3/30/2021 21:02:22,Artificial Intelligence,no,0,sigma,unknown,male,I have no idea what you are talking about,1993-04-22,0,unknown,20,2,51,,5,5
-296,3/30/2021 21:06:27,Quantative Risk Management,yes,0,mu,ja,male,fat,1999-08-05,2,no,75,0.25,5,,Sex,Good food
-297,3/30/2021 21:24:56,Artificial Intelligence,yes,1,mu,ja,female,fat,1997-12-16,1,no,20,2,999998,2021-04-12 00:56:00,Sun,Boyfriend
-298,3/30/2021 21:25:13,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1996-02-09,0,no,77,,Drie,2021-04-12 01:30:00,Beer,Friends
-299,3/30/2021 21:27:34,Business Analytics,yes,1,mu,ja,male,neither,1999-05-16,1,no,10,100,0,,having breakfast with pancakes and strawberries ,Chilling at the beach on a sunny day
-300,3/30/2021 21:27:46,Climate Econometrics,yes,0,mu,nee,male,neither,1995-02-18,4,no,99,17,17,,what,when
-301,3/30/2021 21:34:48,Econometrics & Data Science,yes,0,mu,ja,female,fat,1995-12-12,3,no,80,,-3,,A bunch of laughing,Bingewatching my favourite shows
+295,3/30/2021 21:02:22,Artificial Intelligence,no,0,sigma,unknown,male,I have no idea what you are talking about,1993-04-22 00:00:00,0,unknown,20,2,51,,5,5
+296,3/30/2021 21:06:27,Quantative Risk Management,yes,0,mu,ja,male,fat,1999-08-05 00:00:00,2,no,75,0.25,5,,Sex,Good food
+297,3/30/2021 21:24:56,Artificial Intelligence,yes,1,mu,ja,female,fat,1997-12-16 00:00:00,1,no,20,2,999998,2021-04-12 00:56:00,Sun,Boyfriend
+298,3/30/2021 21:25:13,Bioinformatics and Systems Biology,yes,0,mu,nee,male,fat,1996-02-09 00:00:00,0,no,77,,Drie,2021-04-12 01:30:00,Beer,Friends
+299,3/30/2021 21:27:34,Business Analytics,yes,1,mu,ja,male,neither,1999-05-16 00:00:00,1,no,10,100,0,,having breakfast with pancakes and strawberries ,Chilling at the beach on a sunny day
+300,3/30/2021 21:27:46,Climate Econometrics,yes,0,mu,nee,male,neither,1995-02-18 00:00:00,4,no,99,17,17,,what,when
+301,3/30/2021 21:34:48,Econometrics & Data Science,yes,0,mu,ja,female,fat,1995-12-12 00:00:00,3,no,80,,-3,,A bunch of laughing,Bingewatching my favourite shows
 302,3/30/2021 21:36:33,Econometrics & Data Science,yes,1,unknown,nee,male,fat,,0,no,30,20,6,,saturday,sunday
-303,3/30/2021 21:54:08,Artificial Intelligence,no,0,mu,ja,female,neither,1998-12-19,1,no,70,1,8,2021-04-12 01:00:00,sun,weekend
-304,3/30/2021 22:17:11,MSc Finance,yes,1,mu,ja,male,I have no idea what you are talking about,,,yes,55,,Seventy seven,,Bananas,Test
-305,3/30/2021 22:19:48,Artificial Intelligence,no,1,mu,nee,male,neither,1987-11-29,0,no,95,10,729,,progress,friends
-306,3/30/2021 22:30:34,Information Studies: Data Science,yes,1,mu,ja,female,I have no idea what you are talking about,1989-12-20,0,no,70,99,12,2021-04-12 23:30:00,Sunshine,Family and friends
+303,3/30/2021 21:54:08,Artificial Intelligence,no,0,mu,ja,female,neither,1998-12-19 00:00:00,1,no,70,1,8,2021-04-12 01:00:00,sun,weekend
+304,3/30/2021 22:17:11,Finance and Technology,yes,1,mu,ja,male,I have no idea what you are talking about,,,yes,55,,Seventy seven,,Bananas,Test
+305,3/30/2021 22:19:48,Artificial Intelligence,no,1,mu,nee,male,neither,1987-11-29 00:00:00,0,no,95,10,729,,progress,friends
+306,3/30/2021 22:30:34,Information Studies: Data Science,yes,1,mu,ja,female,I have no idea what you are talking about,1989-12-20 00:00:00,0,no,70,99,12,2021-04-12 23:30:00,Sunshine,Family and friends
 307,3/30/2021 22:37:23,Bioinformatics and Systems Biology,yes,0,mu,ja,male,I have no idea what you are talking about,,1,no,80,1,2,2021-04-12 01:30:00,Sunshine,Exercise
 308,3/30/2021 22:42:18,Artificial Intelligence,yes,1,mu,nee,female,fat,,0,no,80,80,10,2021-04-12 11:00:00,sunshine,happiness
 309,3/30/2021 22:58:28,Finance and Technology,yes,0,mu,nee,male,slim,,1,no,87,,3.1416,,football,Sun
-310,3/30/2021 23:12:08,Finance and Technology,yes,1,sigma,nee,female,fat,1994-11-24,,yes,50,20,20,,Weather,Good news
-311,3/30/2021 23:14:42,Quantative Risk Management,no,0,mu,nee,male,neither,1998-02-26,3,no,0,0.25,59,2021-04-12 01:00:00,Good food,Good music
-312,3/30/2021 23:44:58,Business Analytics,yes,0,mu,ja,male,I have no idea what you are talking about,1998-05-27,1,no,70,1,6,,You,Me
+310,3/30/2021 23:12:08,Finance and Technology,yes,1,sigma,nee,female,fat,1994-11-24 00:00:00,,yes,50,20,20,,Weather,Good news
+311,3/30/2021 23:14:42,Quantative Risk Management,no,0,mu,nee,male,neither,1998-02-26 00:00:00,3,no,0,0.25,59,2021-04-12 01:00:00,Good food,Good music
+312,3/30/2021 23:44:58,Business Analytics,yes,0,mu,ja,male,I have no idea what you are talking about,1998-05-27 00:00:00,1,no,70,1,6,,You,Me
