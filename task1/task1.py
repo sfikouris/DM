@@ -91,6 +91,13 @@ df['What programme are you in?'] = df['What programme are you in?'].replace(
     to_replace = ["cs","CS","Msc Computer Science"],
     value = "Computer Science")
 
+df.loc[df['What programme are you in?']=='https://forms.gle/eTy4nEs3khRqPtMLA','What programme are you in?'] = np.nan
+df.loc[df['What programme are you in?']=='Econometrics','What programme are you in?'] = np.nan
+df.loc[df['What programme are you in?']=='Econometrics ','What programme are you in?'] = np.nan
+df.loc[df['What programme are you in?']=='OR','What programme are you in?'] = np.nan
+df.loc[df['What programme are you in?']=='Je zusje','What programme are you in?'] = np.nan
+df.loc[df['What programme are you in?']=='Python','What programme are you in?'] = np.nan
+
 
 
 #print(df['What programme are you in?'].to_string())
