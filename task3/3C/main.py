@@ -60,7 +60,7 @@ for index, entry in SMSColl.iterrows():
 
 
 mainCount = mainCount.most_common()
-mainCount = [i for i in mainCount if i[1] >= 10]
+mainCount = [i for i in mainCount if i[1] >= 1]
 
 wordDict = {}
 for word, count in mainCount:
