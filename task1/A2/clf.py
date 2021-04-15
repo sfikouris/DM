@@ -32,14 +32,15 @@ y_pred = clf_with_CV.predict(X_test)
 #print(y_pred)
 
 #evaluating the Algorithm
+print("SVM\n")
 scores = cross_val_score(clf_with_CV, X_test,y_test,cv=5)
-print(confusion_matrix(y_test,y_pred))
+print("Confusion Matrix\n {}\n".format(confusion_matrix(y_test,y_pred)))
 print(classification_report(y_test,y_pred))
-print(accuracy_score(y_test, y_pred))
+print("Accuracy score: {}".format(accuracy_score(y_test, y_pred)))
 
 
-print(scores)
-print("%0.2f accuracy with a standard deviation of %0.2f" %(scores.mean(), scores.std()))
+#print(scores)
+print("%0.2f score mean with a standard deviation of %0.2f" %(scores.mean(), scores.std()))
 #print(clf.score(X_train, y_train))
 
 #print("PRININT Y")
@@ -55,13 +56,13 @@ y_pred_forest = regressor.predict(X_test)
 scores_forest = cross_val_score(regressor, X_test,y_test,cv=5)
 
 
-print(scores_forest)
-print("%0.2f accuracy with a standard deviation of %0.2f" %(scores_forest.mean(), scores_forest.std()))
+#print(scores_forest)
 
-print("FOREST")
-print(confusion_matrix(y_test,y_pred_forest))
+print("\nRandom Forest\n")
+print("Confusion Matrix\n {}\n".format(confusion_matrix(y_test,y_pred_forest)))
 print(classification_report(y_test,y_pred_forest))
-print(accuracy_score(y_test, y_pred_forest))
+print("Accuracy score: {}".format(accuracy_score(y_test, y_pred_forest)))
+print("%0.2f score mean with a standard deviation of %0.2f" %(scores_forest.mean(), scores_forest.std()))
 
 
 
