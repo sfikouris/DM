@@ -8,7 +8,10 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('test1.csv')
 
 null_val=df.isnull().sum(axis = 0)
+print(null_val)
+
 null_val.plot(kind="barh")
+plt.tight_layout()
 plt.show()
 
 
@@ -35,7 +38,7 @@ x = np.array(["all_males", "null_birthday", "all_females", "null_birthdays"])
 y = np.array([all_males, male, all_females, female])
 data=[['all_males',all_males], ['null_birthday',male],['all_female',all_females],['null_birthday',female]]
 df_gender_nulldate = pd.DataFrame(data,columns = ['Gender', 'Counts'])
-print(df_gender_nulldate)
+#print(df_gender_nulldate)
 plt.bar(x, y)
 #plt.show()
 
