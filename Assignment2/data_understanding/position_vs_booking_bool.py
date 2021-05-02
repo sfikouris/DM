@@ -13,6 +13,11 @@ booked_counter = Counter()
 clicked_counter = Counter()
 position_counter = Counter()
 
+#testing
+clicked_amount = 0
+booked_amount = 0
+#testing
+
 prev_id = None
 search_matrix = []
 max_pos = 0
@@ -43,8 +48,10 @@ for line in file:
             position_counter[position] += 1
             if booking_bool == 1:
                 booked_counter[position] += 1
+                booked_amount += 1
             if click_bool == 1:
                 clicked_counter[position] += 1
+                clicked_amount += 1
 
         search_matrix = []
         max_pos = 0
@@ -79,6 +86,7 @@ print()
 print(clicked_counter)
 print(clicked_keys)
 print(clicked_values)
+print("booked/clicked percentage = %",100*(booked_amount/clicked_amount))
 
 plt.barh(booked_keys, booked_values)
 plt.title("booked distribution", fontsize=13)
