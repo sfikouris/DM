@@ -1,8 +1,8 @@
 import os
 os.chdir("../..")
 
-file = open("Assignment2/data/training_set_VU_DM.csv")
-sample = open("Assignment2/data/training_set_sample_1000.csv", "w")
+file = open("Assignment2/data/test_set_VU_DM.csv")
+sample = open("Assignment2/data/test_set_sample_1000.csv", "w")
 
 current_line = file.readline()
 sample.write(current_line)
