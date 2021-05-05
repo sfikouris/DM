@@ -44,6 +44,25 @@ def order_hotels(search):
     result = pd.concat([booked_hotels, clicked_hotels, remaining_hotels])
     return result
 
+#adds the same target values as used in the competition. 5 for book, 1 for click.
+def add_target_values_pointwise(df):
+    df['target_value'] = df['booking_bool'] * 4 + df['click_bool']
+    return df
+
+#add target values, ordering based upon booked, clicked and then position
+def add_target_values_listwise(df):
+    searches = df.groupby("srch_id")
+    for id, search in searches:
+        max_pos = search['position'].max()
+        search['position'] = -(search['booking_bool'] + search['click_bool']) * max_pos + search['position']
+        search = search.sort_values(by=['position'])
+        search_size = len(search.index)
+        i = search_size - 1
+        for index, row in search.iterrows():
+            df.at[index, 'target_value'] = i
+            i -= 1
+    return df
+
 '''
 #testing
 os.chdir("../..")

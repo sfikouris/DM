@@ -20,97 +20,51 @@ def predict_ranking(model, filename_input, filename_output):
     output_file = open(filename_output, "w")
     output_file.write("srch_id,prop_id\n")
 
-    samples = []
-    curr_prop_ids = []
-    prev_id = search_ids[0]
-    # fix issue with the last sample being ignored
-    for i, sample in enumerate(feature_vectors):
-        curr_id = search_ids[i]
-        if prev_id != curr_id:
-            write_model_search_prediction(output_file, model, samples, curr_prop_ids, prev_id)
-            samples = []
-            curr_prop_ids = []
+    df = feature_vectors
+    df['srch_id'] = search_ids
+    df['prop_id'] = property_ids
+    searches = df.groupby("srch_id")
+    for id, search in searches:
+        search_features = search.drop(['srch_id','prop_id'], axis=1)
+        prediction_values = model.predict(search_features)
+        prediction_amount = len(prediction_values)
+        prediction_order = np.argsort(prediction_values)
+        property_order = np.zeros(prediction_amount)
+        curr_prop_ids = search['prop_id'].to_numpy()
 
-        samples.append(sample)
-        curr_prop_ids.append(property_ids[i])
-        prev_id = curr_id
+        for i in range(prediction_amount):
+            property_order[i] = curr_prop_ids[prediction_order[i]]
 
-    write_model_search_prediction(output_file, model, samples, curr_prop_ids, curr_id)
+        for prop_id in reversed(property_order):
+            output_file.write(str(id) + "," + str(int(prop_id)) + "\n")
 
     output_file.close()
 
-
-def write_model_search_prediction(file, model, search, curr_prop_ids, search_id):
-    prediction_values = model.predict(search)
-    prediction_amount = len(prediction_values)
-    prediction_order = np.argsort(prediction_values)
-
-    # get the order of the property by their prediction value. Then print to the output file
-    property_order = np.zeros(prediction_amount)
-
-    for j, prop_id in enumerate(curr_prop_ids):
-        prop_order_loc = prediction_order[j]
-        property_order[prop_order_loc] = prop_id
-
-    for prop_id in property_order:
-        file.write(str(search_id) + "," + str(int(prop_id)) + "\n")
-
-
 # prepare the data and return the feature vectors, property ids and search ids, and target values if possible
 def prepare_data(filename):
-    file = open(filename)
+    df = pd.read_csv(filename)
 
-    header_string = file.readline().rstrip("\n")
-    header = header_string.split(",")
+    #add target values
+    if 'booking_bool' in df.columns:
+        #df = add_target_values_pointwise(df) #todo calc pointwise
+        df = add_target_values_listwise(df)
+        df = df.drop(['position', 'click_bool', 'booking_bool', 'gross_bookings_usd'], axis=1)
+        target_values = df['target_value']
+    else:
+        target_values = []
 
-    feature_vectors = []
-    target_values = []
-    search_ids = []
-    property_ids = []
+    search_ids = df['srch_id']
+    property_ids = df['prop_id']
+    feature_vectors = df.drop(['srch_id', 'prop_id', 'target_value'], axis=1, errors='ignore')
 
-    search = read_search(file, header)
+    search_ids = pd.to_numeric(search_ids, downcast= 'integer')
+    property_ids = pd.to_numeric(property_ids, downcast= 'integer')
+    target_values = pd.to_numeric(target_values, downcast= 'float')
 
-    while not search.empty:
-        # if the data contains training data, calculate target values.
-        if 'booking_bool' in search.columns:
-            search = order_hotels(search)
-            search = search.drop(['position', 'click_bool', 'booking_bool', 'gross_bookings_usd'], axis=1)
+    # forced feature engineering, can't deal with categorical and NULL
+    feature_vectors = feature_vectors.apply(pd.to_numeric, errors='coerce', downcast='float')
+    feature_vectors = feature_vectors.fillna(float(0))
 
-            sample_amount = len(search.index)
-            target_values = target_values + list(range(sample_amount))
-
-        # split off the search ids and propery ids
-        search_ids = search_ids + search['srch_id'].tolist()
-        search = search.drop(['srch_id'], axis=1)
-
-        property_ids = property_ids + search['prop_id'].tolist()
-        search = search.drop(['prop_id'], axis=1)
-
-        # forced feature engineering, can't deal with categorical and NULL
-        search = search.apply(pd.to_numeric, errors='coerce', downcast='float')
-        search = search.fillna(float(0))
-
-        # get the feature vectors
-        feature_vectors = feature_vectors + search.values.tolist()
-
-        # get the next search
-        search = read_search(file, header)
-        print("current search processed: ", search_ids[-1])
-
-    # turn lists into numpy arrays
-    search_ids = np.array(search_ids)
-    target_values = np.array(target_values)
-    property_ids = np.array(property_ids)
-    X = np.ndarray((len(feature_vectors), len(feature_vectors[0])), dtype=np.float64)
-    for i, x in enumerate(feature_vectors):
-        X[i] = x
-    feature_vectors = X
-
-    search_ids = search_ids.astype(int)
-    target_values = target_values.astype(float)
-    property_ids = property_ids.astype(int)
-
-    file.close()
     return feature_vectors, search_ids, property_ids, target_values
 
 
@@ -118,8 +72,9 @@ def prepare_data(filename):
 os.chdir("../..")
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
+pd.set_option('display.max_rows', None)
+
 np.set_printoptions(threshold=sys.maxsize)
 
 model = train_lambdamart("Assignment2/data/training_set_VU_DM.csv")
-predict_ranking(model, "Assignment2/data/test_set_VU_DM.csv",
-                "Assignment2/data/lambdaMART_train_train_test_test.csv")
+predict_ranking(model, "Assignment2/data/training_set_sample_1000.csv", "Assignment2/data/lambdaMART_trSample_trSample_listwise.csv")

@@ -60,7 +60,7 @@ for index, entry in SMSColl.iterrows():
 
 
 mainCount = mainCount.most_common()
-mainCount = [i for i in mainCount if i[1] >= 1]
+mainCount = [i for i in mainCount if i[1] >= 100]
 
 wordDict = {}
 for word, count in mainCount:
@@ -68,7 +68,7 @@ for word, count in mainCount:
     if wordValue != 0:
         wordDict[word] = wordValue
 
-#wordDict = sorted(wordDict.items(), key=operator.itemgetter(1), reverse=True)
+wordDict = sorted(wordDict.items(), key=operator.itemgetter(1), reverse=True)
 print(wordDict)
 
 #check performance
