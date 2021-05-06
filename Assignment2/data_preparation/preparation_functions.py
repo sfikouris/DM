@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 import numpy as np
+from datetime import date
+import sys
 
 #read in a single search and return as pandas dataframe, assumes first position contains id
 def read_search(file, header):
@@ -57,31 +59,94 @@ def add_target_values_listwise(df):
         search['position'] = -(search['booking_bool'] + search['click_bool']) * max_pos + search['position']
         search = search.sort_values(by=['position'])
         search_size = len(search.index)
-        i = search_size - 1
+        i = 5
+        x = 5/search_size
         for index, row in search.iterrows():
             df.at[index, 'target_value'] = i
-            i -= 1
+            i -= x
     return df
 
-'''
-#testing
-os.chdir("../..")
-file = open("Assignment2/data/training_set_sample_1000.csv")
-pd.set_option("display.max_columns",None)
-pd.set_option("display.width", None)
+#splits the date_time column into 2 new columns date and time, which use the range [0,1]
+def split_date_time(df):
+    for index, row in df.iterrows():
+        date_time_str = row['date_time']
+        date_str, time_str = date_time_str.split(' ')
+        year, month, day = map(int, date_str.split('-'))
+        hour, minute, second = map(int,time_str.split(':'))
 
-header_string = file.readline().rstrip("\n")
-header = header_string.split(",")
+        year_start = date(year, 1, 1)
+        search_date = date(year, month, day)
+        date_delta = search_date - year_start
+        date_delta_norm = date_delta.days / 365
 
-for i in range(1):
-    df = read_search(file, header)
-    df = order_hotels(df)
-    print(df['srch_id'].tolist())
-    print(df)
+        hour_delta_norm = hour / 24
+        minute_delta_norm = minute / 60 / 24
+        second_delta_norm = second / 60 / 60 / 24
+        time_delta_norm = hour_delta_norm + minute_delta_norm + second_delta_norm
 
-    sample_amount = len(df.index)
-    print(list(range(sample_amount)))
+        df.at[index, 'date'] = date_delta_norm
+        df.at[index, 'time'] = time_delta_norm
 
+    df = df.drop('date_time', axis=1)
+    return df
 
-file.close()
-'''
+#prepares data about competitor pricing, combining all competitors. Quite time intensive
+def prepare_competitor_data(df):
+    for index, row in df.iterrows():
+        comp_rate_worse = 0
+        comp_rate_better = 0
+        comp_inv_true = 0
+        comp_inv_false = 0
+        comp_total_higher_rate = 0
+        comp_num_higher_rate = 0
+        comp_total_lower_rate = 0
+        comp_num_lower_rate = 0
+
+        for i in range(1, 9):
+            if row['comp{}_rate'.format(i)] == 1.0:
+                comp_rate_worse += 1
+
+                if not pd.isna('comp{}_rate_percent_diff'.format(i)):
+                    comp_rate = row['comp{}_rate_percent_diff'.format(i)]
+                    #cap outliers at 200
+                    if comp_rate > 200:
+                        comp_rate = 200
+                    comp_total_higher_rate += comp_rate
+                    comp_num_higher_rate += 1
+
+            elif row['comp{}_rate'.format(i)] == -1.0:
+                comp_rate_better += 1
+
+                if not pd.isna(row['comp{}_rate_percent_diff'.format(i)]):
+                    comp_rate = row['comp{}_rate_percent_diff'.format(i)]
+                    #cap outliers at 200
+                    if comp_rate > 200:
+                        comp_rate = 200
+                    comp_total_lower_rate += comp_rate
+                    comp_num_lower_rate += 1
+
+            if row['comp{}_inv'.format(i)] == 0:
+                comp_inv_true += 1
+            elif row['comp{}_inv'.format(i)] == 1:
+                comp_inv_false += 1
+
+        if comp_num_higher_rate > 0:
+            comp_mean_higher_rate = comp_total_higher_rate / comp_num_higher_rate
+        else:
+            comp_mean_higher_rate = 0
+
+        if comp_num_lower_rate > 0:
+            comp_mean_lower_rate = comp_total_lower_rate / comp_num_lower_rate
+        else:
+            comp_mean_lower_rate = 0
+
+        df.at[index, 'comp_rate_worse'] = comp_rate_worse
+        df.at[index, 'comp_rate_better'] = comp_rate_better
+        df.at[index, 'comp_inv_true'] = comp_inv_true
+        df.at[index, 'comp_inv_false'] = comp_inv_false
+        df.at[index, 'comp_mean_higher_rate'] = comp_mean_higher_rate
+        df.at[index, 'comp_mean_lower_rate'] = comp_mean_lower_rate
+
+    for i in range(1, 9):
+        df = df.drop(['comp{}_rate'.format(i), 'comp{}_inv'.format(i), 'comp{}_rate_percent_diff'.format(i)], axis=1)
+    return df

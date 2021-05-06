@@ -46,8 +46,8 @@ def prepare_data(filename):
 
     #add target values
     if 'booking_bool' in df.columns:
-        #df = add_target_values_pointwise(df) #todo calc pointwise
-        df = add_target_values_listwise(df)
+        df = add_target_values_pointwise(df)
+        #df = add_target_values_listwise(df)
         df = df.drop(['position', 'click_bool', 'booking_bool', 'gross_bookings_usd'], axis=1)
         target_values = df['target_value']
     else:
@@ -69,12 +69,11 @@ def prepare_data(filename):
 
 
 # testing
-os.chdir("../..")
+os.chdir("../../Assignment2/data")
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 pd.set_option('display.max_rows', None)
-
 np.set_printoptions(threshold=sys.maxsize)
 
-model = train_lambdamart("Assignment2/data/training_set_VU_DM.csv")
-predict_ranking(model, "Assignment2/data/training_set_sample_1000.csv", "Assignment2/data/lambdaMART_trSample_trSample_listwise.csv")
+model = train_lambdamart("training_set_VU_DM.csv")
+predict_ranking(model, "test_set_VU_DM.csv", "lambdaMART_training_test_pointwise.csv")
