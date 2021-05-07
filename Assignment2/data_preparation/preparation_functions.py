@@ -189,3 +189,22 @@ def prepare_location1_score(df):
         df_loc1.loc[ind,'pre_norm'] = pre_norm
         x, y = pre_norm.min(), pre_norm.max()
         df_loc1.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+#prepares data about location score 2 per srch_id
+def prepare_location2_score(df):
+    df_loc2score=df.rename(columns={'prop_location_score2': 'AvgLocation_score2'})
+    loc2_grp = df_loc2score.groupby(['srch_id'])
+    AvgScoreLoc2 = loc2_grp['AvgLocation_score2'].mean()
+    Loc2_score = df.set_index('srch_id')['prop_location_score2']
+    df_loc2 = pd.concat([AvgScoreLoc2, Loc2_score], axis='columns', sort= False)
+    df_loc2['normalize']=1
+    df_loc2['pre_norm'] =1 
+    a, b = -1,1
+    df_loc2_new = df_loc2.groupby(df_loc2.index)
+    index = df_loc2.index
+    uni_ind = index.unique()
+    for ind in uni_ind:
+        pre_norm = df_loc2_new.get_group(ind).AvgLocation_score2 - df_loc2_new.get_group(ind).prop_location_score2
+        df_loc2.loc[ind,'pre_norm'] = pre_norm
+        x, y = pre_norm.min(), pre_norm.max()
+        df_loc2.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
