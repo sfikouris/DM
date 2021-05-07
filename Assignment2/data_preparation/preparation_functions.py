@@ -150,3 +150,42 @@ def prepare_competitor_data(df):
     for i in range(1, 9):
         df = df.drop(['comp{}_rate'.format(i), 'comp{}_inv'.format(i), 'comp{}_rate_percent_diff'.format(i)], axis=1)
     return df
+
+
+#prepares data about avg price per srch_id
+def prepare_price_data(df):
+    srch_grp = df.groupby(['srch_id'])
+    AvgHotelPricePerSrchID = srch_grp['price_usd'].mean()
+    df_newbook=df.rename(columns={'price_usd': 'HotelPrice'})
+    PriceOfHotel=df_newbook.set_index('srch_id')['HotelPrice']
+    python_df = pd.concat([AvgHotelPricePerSrchID, PriceOfHotel], axis='columns', sort= False)
+    python_df['normalize']=1
+
+    a, b = -1,1
+
+    df1 = python_df.groupby(python_df.index)
+    index = python_df.index
+    uni_ind = index.unique()
+    for ind in uni_ind:
+        pre_norm = df1.get_group(ind).price_usd - df1.get_group(ind).HotelPrice
+        x, y = pre_norm.min(), pre_norm.max()
+        python_df.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+#prepares data about location score 1 per srch_id
+def prepare_location1_score(df):
+    df_loc1score=df.rename(columns={'prop_location_score1': 'AvgLocation_score1'})
+    loc1_grp = df_loc1score.groupby(['srch_id'])
+    AvgScoreLoc1 = loc1_grp['AvgLocation_score1'].mean()
+    Loc1_score = df.set_index('srch_id')['prop_location_score1']
+    df_loc1 = pd.concat([AvgScoreLoc1, Loc1_score], axis='columns', sort= False)
+    df_loc1['normalize']=1
+    df_loc1['pre_norm'] =1 
+    a, b = -1,1
+    df_loc1_new = df_loc1.groupby(df_loc1.index)
+    index = df_loc1.index
+    uni_ind = index.unique()
+    for ind in uni_ind:
+        pre_norm = df_loc1_new.get_group(ind).AvgLocation_score1 - df_loc1_new.get_group(ind).prop_location_score1
+        df_loc1.loc[ind,'pre_norm'] = pre_norm
+        x, y = pre_norm.min(), pre_norm.max()
+        df_loc1.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
