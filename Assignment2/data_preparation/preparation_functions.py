@@ -208,3 +208,23 @@ def prepare_location2_score(df):
         df_loc2.loc[ind,'pre_norm'] = pre_norm
         x, y = pre_norm.min(), pre_norm.max()
         df_loc2.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+#prepares data about orig_destination_distance per srch_id
+def prepare_orig_destination_distance(df):
+    df_dest=df.rename(columns={'orig_destination_distance': 'AvgDestDist'})
+    dist_grp = df_dest.groupby(['srch_id'])
+    AvgDestDist = dist_grp['AvgDestDist'].mean()
+    df_dest1 = df.set_index('srch_id')['orig_destination_distance']
+    dest = pd.concat([AvgDestDist, df_dest1], axis='columns', sort= False)
+    dest['normalize']=1
+    dest['pre_norm'] =1 
+
+    a, b = -1,1
+    df_dest_new = dest.groupby(dest.index)
+    index = dest.index
+    uni_ind = index.unique()
+    for ind in uni_ind:
+        pre_norm = df_dest_new.get_group(ind).AvgDestDist - df_dest_new.get_group(ind).orig_destination_distance
+        dest.loc[ind,'pre_norm'] = pre_norm
+        x, y = pre_norm.min(), pre_norm.max()
+        dest.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
