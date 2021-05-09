@@ -228,3 +228,7 @@ def prepare_orig_destination_distance(df):
         dest.loc[ind,'pre_norm'] = pre_norm
         x, y = pre_norm.min(), pre_norm.max()
         dest.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+def prepare_countries_id(df):
+    df['same_country'] = (df['visitor_location_country_id'] == df['prop_country_id'])
+    return df.drop(['visitor_location_country_id','prop_country_id'],axis=1)
