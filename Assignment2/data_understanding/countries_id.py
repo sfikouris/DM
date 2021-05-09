@@ -15,8 +15,6 @@ diff = df[~same_country_id & booked]
 
 orig_distance = df[booked].fillna({'orig_destination_distance' : 0}).sort_values('orig_destination_distance')
 
-IPython.embed()
-
 def plot_hist(data):
     bins = np.arange(0,df.loc[ booked, 'price_usd' ].max(),100)
 
