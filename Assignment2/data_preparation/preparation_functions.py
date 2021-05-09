@@ -231,4 +231,5 @@ def prepare_orig_destination_distance(df):
 
 def prepare_countries_id(df):
     df['same_country'] = (df['visitor_location_country_id'] == df['prop_country_id'])
+    df.same_country = df.same_country.astype(int)
     return df.drop(['visitor_location_country_id','prop_country_id'],axis=1)
