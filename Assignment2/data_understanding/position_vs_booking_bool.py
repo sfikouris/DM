@@ -27,7 +27,7 @@ for line in file:
 
     if prev_id != curr_id:
         unused_positions = []
-        for possible_position in range(1,max_pos+1):
+        for possible_position in range(1, max_pos+1):
             is_used = False
             for search_row in search_matrix:
                 if search_row[0] == possible_position:
@@ -56,6 +56,10 @@ for line in file:
         search_matrix = []
         max_pos = 0
 
+    #only use if random_bool true
+    if int(data_array[26]) == 0:
+        continue
+
     position = int(data_array[14])
     booking_bool = int(data_array[53])
     click_bool = int(data_array[51])
@@ -66,6 +70,8 @@ for line in file:
         max_pos = position
 
     prev_id = curr_id
+
+file.close()
 
 booked_keys = list(booked_counter.keys())
 clicked_keys = list(clicked_counter.keys())
@@ -100,4 +106,3 @@ plt.ylabel("position", fontsize = 12)
 plt.xlabel("occurrence (percentage)", fontsize = 12)
 plt.show()
 
-file.close()

@@ -59,11 +59,31 @@ def add_target_values_listwise(df):
         search['position'] = -(search['booking_bool'] + search['click_bool']) * max_pos + search['position']
         search = search.sort_values(by=['position'])
         search_size = len(search.index)
-        i = 5
-        x = 5/search_size
+        range_max = 1
+        step_size = range_max/search_size
+        i = range_max
         for index, row in search.iterrows():
             df.at[index, 'target_value'] = i
-            i -= x
+            i -= step_size
+    return df
+
+#combination of pointwise and listwise. Listwise adding in the range [0,1], pointwise giving 1 for clicked and 5 for booked.
+def add_target_values_hybrid(df):
+    searches = df.groupby("srch_id")
+    for id, search in searches:
+        max_pos = search['position'].max()
+        search['position'] = -(search['booking_bool'] + search['click_bool']) * max_pos + search['position']
+        search = search.sort_values(by=['position'])
+        search_size = len(search.index)
+        range_max = 1
+        step_size = range_max / search_size
+        i = range_max
+        for index, row in search.iterrows():
+            df.at[index, 'target_value'] = i
+            i -= step_size
+
+    df['target_value'] = df['booking_bool'] * 4 + df['click_bool'] + df['target_value']
+
     return df
 
 #splits the date_time column into 2 new columns date and time, which use the range [0,1]
@@ -93,6 +113,11 @@ def split_date_time(df):
 #prepares data about competitor pricing, combining all competitors. Quite time intensive
 def prepare_competitor_data(df):
     for index, row in df.iterrows():
+
+        #print progress
+        if index % 100000 == 0:
+            print("current search: ",row['srch_id'])
+
         comp_rate_worse = 0
         comp_rate_better = 0
         comp_inv_true = 0
@@ -152,6 +177,28 @@ def prepare_competitor_data(df):
     return df
 
 
+#prepare a numerical column, adding average and normalized offset
+def add_avg_and_normalized_offset(df, column_names):
+    for column_name in column_names:
+        srch_grp = df.groupby(['srch_id'])
+        avg_val = srch_grp[column_name].mean()
+        abs_avg = avg_val.mean()
+        avg_val = avg_val.fillna(abs_avg) #fill nan by absolute avg if no values are available
+        avg_val_dict = avg_val.to_dict()
+        avg_name = "avg_"+column_name
+        df[avg_name] = df['srch_id'].map(avg_val_dict)
+
+        norm_name = "norm_"+column_name
+        lower_bound, upper_bound = -1, 1
+        for srch_id, srch in srch_grp:
+            pre_norm = srch[avg_name] - srch[column_name]
+            min, max = pre_norm.min(), pre_norm.max()
+            srch_indices = srch.index
+            df.loc[srch_indices, norm_name] = (pre_norm - min) / (max - min) * (upper_bound - lower_bound) + lower_bound
+
+    return df
+
+
 #prepares data about avg price per srch_id
 def prepare_price_data(df):
     srch_grp = df.groupby(['srch_id'])
@@ -160,9 +207,7 @@ def prepare_price_data(df):
     PriceOfHotel=df_newbook.set_index('srch_id')['HotelPrice']
     python_df = pd.concat([AvgHotelPricePerSrchID, PriceOfHotel], axis='columns', sort= False)
     python_df['normalize']=1
-
     a, b = -1,1
-
     df1 = python_df.groupby(python_df.index)
     index = python_df.index
     uni_ind = index.unique()
@@ -170,6 +215,13 @@ def prepare_price_data(df):
         pre_norm = df1.get_group(ind).price_usd - df1.get_group(ind).HotelPrice
         x, y = pre_norm.min(), pre_norm.max()
         python_df.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+    #added to unify naming convention and to return dataframe with added data
+    python_df = python_df.rename(columns={"price_usd": "avg_price_usd", "normalize":"norm_price_usd"})
+    python_df = python_df.reset_index()
+    python_df = python_df.drop(["HotelPrice", "srch_id"],axis=1)
+    result = df.merge(python_df, left_index=True, right_index=True)
+    return result
 
 #prepares data about location score 1 per srch_id
 def prepare_location1_score(df):
@@ -188,7 +240,10 @@ def prepare_location1_score(df):
         pre_norm = df_loc1_new.get_group(ind).AvgLocation_score1 - df_loc1_new.get_group(ind).prop_location_score1
         df_loc1.loc[ind,'pre_norm'] = pre_norm
         x, y = pre_norm.min(), pre_norm.max()
+        #is divide by zero if x=y=0
         df_loc1.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
+    print(df_loc1)
 
 #prepares data about location score 2 per srch_id
 def prepare_location2_score(df):
@@ -228,6 +283,7 @@ def prepare_orig_destination_distance(df):
         dest.loc[ind,'pre_norm'] = pre_norm
         x, y = pre_norm.min(), pre_norm.max()
         dest.loc[ind,'normalize'] = (pre_norm - x) / (y-x) * (b-a) + a
+
 
 def prepare_countries_id(df):
     df['same_country'] = (df['visitor_location_country_id'] == df['prop_country_id'])
